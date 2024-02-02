@@ -1,21 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/CarBook.Domain/Class1.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/CarBook.Domain/Entities/Testimonial.cs">
     <Files>
-      <File FileName="Core/CarBook.Domain/Class1.cs" Line="5" Column="1" />
+      <File FileName="Core/CarBook.Domain/Entities/Service.cs" />
+      <File FileName="Core/CarBook.Domain/Entities/Testimonial.cs" Line="14" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarBook">
-            <Node name="core" expanded="True">
-              <Node name="CarBook.Domain" expanded="True">
-                <Node name="Class1.cs" selected="True" />
+            <Node name="core">
+              <Node name="CarBook.Domain">
+                <Node name="Entities">
+                  <Node name="Testimonial.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -23,5 +22,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.core.CarBook.Domain FirstBuild="True" />
 </Properties>

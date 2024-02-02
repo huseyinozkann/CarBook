@@ -12,7 +12,7 @@ namespace CarBook.Domain.Entities
 		public string Comment { get; set; }
 
 		public string ImageUrl { get; set; }
-
+		 
 	}
 }
 
