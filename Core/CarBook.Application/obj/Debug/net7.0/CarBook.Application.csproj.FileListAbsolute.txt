@@ -1,0 +1,15 @@
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/bin/Debug/net7.0/CarBook.Application.deps.json
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/bin/Debug/net7.0/CarBook.Application.dll
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/bin/Debug/net7.0/CarBook.Application.pdb
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/bin/Debug/net7.0/CarBook.Domain.dll
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/bin/Debug/net7.0/CarBook.Domain.pdb
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.csproj.AssemblyReference.cache
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.AssemblyInfoInputs.cache
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.AssemblyInfo.cs
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.csproj.CoreCompileInputs.cache
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.csproj.CopyComplete
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.dll
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/refint/CarBook.Application.dll
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.pdb
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/ref/CarBook.Application.dll
