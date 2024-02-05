@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "CarBook.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CarBook.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarBook.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CarBook.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CarBook.Domain/CarBook.Domain.csproj",
+      "msbuildProject": "../CarBook.Domain/CarBook.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "CarBook.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/huseyinozkan/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/CarBook.Domain.csproj": {
+              "projectPath": "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/CarBook.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

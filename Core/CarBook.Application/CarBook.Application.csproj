@@ -8,8 +8,31 @@
 
   <ItemGroup>
     <None Remove="Interfaces\" />
+    <None Remove="Features\" />
+    <None Remove="Features\CQRS\" />
+    <None Remove="Features\CQRS\Commands\" />
+    <None Remove="Features\CQRS\Handlers\" />
+    <None Remove="Features\CQRS\Queries\" />
+    <None Remove="Features\CQRS\Results\" />
+    <None Remove="Features\CQRS\Results\AboutResults\" />
+    <None Remove="Features\CQRS\Queries\AboutQueries\" />
+    <None Remove="Features\CQRS\Handlers\AboutHandlers\" />
+    <None Remove="Features\CQRS\Commands\AboutCommands\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
+    <Folder Include="Features\" />
+    <Folder Include="Features\CQRS\" />
+    <Folder Include="Features\CQRS\Commands\" />
+    <Folder Include="Features\CQRS\Handlers\" />
+    <Folder Include="Features\CQRS\Queries\" />
+    <Folder Include="Features\CQRS\Results\" />
+    <Folder Include="Features\CQRS\Results\AboutResults\" />
+    <Folder Include="Features\CQRS\Queries\AboutQueries\" />
+    <Folder Include="Features\CQRS\Handlers\AboutHandlers\" />
+    <Folder Include="Features\CQRS\Commands\AboutCommands\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
   </ItemGroup>
 </Project>

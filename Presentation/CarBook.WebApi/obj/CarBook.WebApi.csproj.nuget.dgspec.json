@@ -25,7 +25,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/CarBook.Domain.csproj": {
+                "projectPath": "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/CarBook.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
