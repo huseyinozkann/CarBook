@@ -1,26 +1,14 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/CarBook.Persistence/Context/CarBookContext.cs">
-    <Files>
-      <File FileName="Infrastructure/CarBook.Persistence/Context/CarBookContext.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarBook">
-            <Node name="Core" expanded="True">
-              <Node name="CarBook.Domain" expanded="True">
-                <Node name="Entities" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Infrastructure" expanded="True">
-              <Node name="CarBook.Persistence">
-                <Node name="Context" expanded="True">
-                  <Node name="CarBookContext.cs" selected="True" />
-                </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="CarBook.WebApi" expanded="True">
+                <Node name="Dependencies" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -28,4 +16,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Core.CarBook.Application FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -15,3 +15,4 @@
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/CarBook.Persistence.pdb
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/CarBook.Persistence.genruntimeconfig.cache
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/ref/CarBook.Persistence.dll
+/Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/CarBook.Persistence.sourcelink.json
