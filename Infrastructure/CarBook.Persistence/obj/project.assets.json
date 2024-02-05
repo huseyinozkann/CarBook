@@ -1054,6 +1054,16 @@
           }
         }
       },
+      "CarBook.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CarBook.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarBook.Application.dll": {}
+        }
+      },
       "CarBook.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2886,6 +2896,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CarBook.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CarBook.Application/CarBook.Application.csproj",
+      "msbuildProject": "../../Core/CarBook.Application/CarBook.Application.csproj"
+    },
     "CarBook.Domain/1.0.0": {
       "type": "project",
       "path": "../../Core/CarBook.Domain/CarBook.Domain.csproj",
@@ -2894,6 +2909,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "CarBook.Application >= 1.0.0",
       "CarBook.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.15",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.15",
@@ -2926,6 +2942,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/CarBook.Application.csproj": {
+              "projectPath": "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/CarBook.Application.csproj"
+            },
             "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/CarBook.Domain.csproj": {
               "projectPath": "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/CarBook.Domain.csproj"
             }
@@ -2974,22 +2993,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.14, 7.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
       }
     }
   }
