@@ -30,6 +30,7 @@
     <None Remove="Features\CQRS\Queries\CarQueries\" />
     <None Remove="Features\CQRS\Commands\CarCommands\" />
     <None Remove="Features\CQRS\Handlers\CarHandlers\" />
+    <None Remove="Interfaces\CarInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -55,6 +56,7 @@
     <Folder Include="Features\CQRS\Queries\CarQueries\" />
     <Folder Include="Features\CQRS\Commands\CarCommands\" />
     <Folder Include="Features\CQRS\Handlers\CarHandlers\" />
+    <Folder Include="Interfaces\CarInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
