@@ -39,6 +39,15 @@
     <None Remove="Features\CQRS\Queries\ContactQueries\" />
     <None Remove="Features\CQRS\Commands\ContactCommands\" />
     <None Remove="Features\CQRS\Handlers\ContactHandlers\" />
+    <None Remove="Features\Mediator\" />
+    <None Remove="Features\Mediator\Commands\" />
+    <None Remove="Features\Mediator\Handlers\" />
+    <None Remove="Features\Mediator\Queries\" />
+    <None Remove="Features\Mediator\Results\" />
+    <None Remove="Features\Mediator\Results\FeatureResults\" />
+    <None Remove="Features\Mediator\Queries\FeatureQueries\" />
+    <None Remove="Features\Mediator\Handlers\FeatureHandlers\" />
+    <None Remove="Features\Mediator\Commands\FeatureCommands\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -73,8 +82,21 @@
     <Folder Include="Features\CQRS\Queries\ContactQueries\" />
     <Folder Include="Features\CQRS\Commands\ContactCommands\" />
     <Folder Include="Features\CQRS\Handlers\ContactHandlers\" />
+    <Folder Include="Features\Mediator\" />
+    <Folder Include="Features\Mediator\Commands\" />
+    <Folder Include="Features\Mediator\Handlers\" />
+    <Folder Include="Features\Mediator\Queries\" />
+    <Folder Include="Features\Mediator\Results\" />
+    <Folder Include="Features\Mediator\Results\FeatureResults\" />
+    <Folder Include="Features\Mediator\Queries\FeatureQueries\" />
+    <Folder Include="Features\Mediator\Handlers\FeatureHandlers\" />
+    <Folder Include="Features\Mediator\Commands\FeatureCommands\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
   </ItemGroup>
 </Project>

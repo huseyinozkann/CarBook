@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "zB2wp9B1Dz6SFFGhRnML8QGGLJM/dH4BsbgZXsTgbTVgk+AKNWr3vtTlqRl9ynQ6LqhHlt++rNAzgwui/Gdoxg==",
+  "dgSpecHash": "3YaBeaLLWIwmt+8oA/q7ZL8wEFqRlNOzBidZZ21cK0G4mXj5nbWy2MW/4mGIx4tIdGA1K5HSYW64w/WZmSU6wQ==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/CarBook.Persistence.csproj",
   "expectedPackageFiles": [
     "/Users/huseyinozkan/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.0.0/mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",

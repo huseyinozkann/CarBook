@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Rp8zzQkQdYvyYN4ApSjX7Qks1H2kvCjq4KCQqol7I3lZYup6/aGgeezIra8gynRi2gSXDDfKp39rOdHiSqUSog==",
+  "dgSpecHash": "iBevhRSFbmCQdP5jey4vg6X2jRj4KPb8czb9QSwWjqUI+eRAOrrZw4XsLddLgL4nx3osWq6kO62P4p0dZZAq8A==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/CarBook.WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/huseyinozkan/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.0.0/mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
