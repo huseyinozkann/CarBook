@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iBevhRSFbmCQdP5jey4vg6X2jRj4KPb8czb9QSwWjqUI+eRAOrrZw4XsLddLgL4nx3osWq6kO62P4p0dZZAq8A==",
+  "dgSpecHash": "bNKIIvcoCl1DSFiU95ZFmjN0IYQtnXpCITsyVlCRdemEsKU4/6XxfVHRC5iBYzNctAOk/XPuO3JwTQeGJTzo9w==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/CarBook.WebApi.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

@@ -13,6 +13,7 @@ using CarBook.Application.Features.CQRS.Commands.ContactCommands;
 namespace CarBook.WebApi.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class ContactsController : ControllerBase
     {
         private readonly CreateContactCommandHandler _createContactCommandHandler;

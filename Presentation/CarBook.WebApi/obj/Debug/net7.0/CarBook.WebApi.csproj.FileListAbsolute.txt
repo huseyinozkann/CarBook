@@ -80,3 +80,6 @@
 /Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/obj/Debug/net7.0/ref/CarBook.WebApi.dll
 /Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/CarBook.Application.dll
 /Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/CarBook.Application.pdb
+/Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/MediatR.dll
+/Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/MediatR.Contracts.dll
+/Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3YaBeaLLWIwmt+8oA/q7ZL8wEFqRlNOzBidZZ21cK0G4mXj5nbWy2MW/4mGIx4tIdGA1K5HSYW64w/WZmSU6wQ==",
+  "dgSpecHash": "6rPeHZKoPdyEZj8EwxxhgDkz1yEMHUwYBh4+xKxH6a6FNVqg1bV51yzjCO8awW4nr/3udRfX4WUrmvGqmEwaRA==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/CarBook.Persistence.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "/Users/huseyinozkan/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.15/microsoft.entityframeworkcore.tools.7.0.15.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

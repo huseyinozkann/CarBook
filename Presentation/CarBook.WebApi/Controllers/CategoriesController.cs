@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CarBook.WebApi.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class CategoriesController : ControllerBase
     {
         private readonly CreateCategoryCommandHandler _createCategoryCommandHandler;
