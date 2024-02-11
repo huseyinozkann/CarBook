@@ -49,6 +49,10 @@
     <None Remove="Features\Mediator\Handlers\FeatureHandlers\" />
     <None Remove="Features\Mediator\Commands\FeatureCommands\" />
     <None Remove="Services\" />
+    <None Remove="Features\Mediator\Results\FooterAddressResults\" />
+    <None Remove="Features\Mediator\Queries\FooterAddressQueries\" />
+    <None Remove="Features\Mediator\Commands\FooterAddressCommands\" />
+    <None Remove="Features\Mediator\Handlers\FooterAddressHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -93,6 +97,10 @@
     <Folder Include="Features\Mediator\Handlers\FeatureHandlers\" />
     <Folder Include="Features\Mediator\Commands\FeatureCommands\" />
     <Folder Include="Services\" />
+    <Folder Include="Features\Mediator\Results\FooterAddressResults\" />
+    <Folder Include="Features\Mediator\Queries\FooterAddressQueries\" />
+    <Folder Include="Features\Mediator\Commands\FooterAddressCommands\" />
+    <Folder Include="Features\Mediator\Handlers\FooterAddressHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
