@@ -1,31 +1,29 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/CarBook.WebApi/Controllers/FeaturesController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/CarBook.Application/Features/Mediator/Commands/LocationCommands/RemoveLocationCommand.cs">
     <Files>
-      <File FileName="Presentation/CarBook.WebApi/Controllers/FeaturesController.cs" Line="53" Column="1" />
+      <File FileName="Core/CarBook.Application/Features/Mediator/Commands/LocationCommands/CreateLocationCommand.cs" />
+      <File FileName="Core/CarBook.Application/Features/Mediator/Commands/LocationCommands/UpdateLocationCommand.cs" />
+      <File FileName="Core/CarBook.Application/Features/Mediator/Commands/LocationCommands/RemoveLocationCommand.cs" Line="11" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarBook">
+          <Node name="CarBook" expanded="True">
             <Node name="Core" expanded="True">
               <Node name="CarBook.Application" expanded="True">
                 <Node name="Features" expanded="True">
-                  <Node name="CQRS" expanded="True" />
-                  <Node name="Mediator" expanded="True" />
+                  <Node name="Mediator" expanded="True">
+                    <Node name="Commands" expanded="True">
+                      <Node name="LocationCommands" expanded="True">
+                        <Node name="RemoveLocationCommand.cs" selected="True" />
+                      </Node>
+                    </Node>
+                    <Node name="Handlers" expanded="True" />
+                  </Node>
                 </Node>
               </Node>
-            </Node>
-            <Node name="Presentation">
-              <Node name="CarBook.WebApi">
-                <Node name="Controllers">
-                  <Node name="FeaturesController.cs" selected="True" />
-                </Node>
+              <Node name="CarBook.Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -33,5 +31,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
