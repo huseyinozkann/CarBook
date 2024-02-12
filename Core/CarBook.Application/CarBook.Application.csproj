@@ -61,6 +61,10 @@
     <None Remove="Features\Mediator\Queries\PricingQueries\" />
     <None Remove="Features\Mediator\Commands\PricingCommands\" />
     <None Remove="Features\Mediator\Handlers\PricingHandlers\" />
+    <None Remove="Features\Mediator\Results\ServiceResults\" />
+    <None Remove="Features\Mediator\Queries\ServiceQueries\" />
+    <None Remove="Features\Mediator\Commands\ServiceCommands\" />
+    <None Remove="Features\Mediator\Handlers\ServiceHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -117,6 +121,10 @@
     <Folder Include="Features\Mediator\Queries\PricingQueries\" />
     <Folder Include="Features\Mediator\Commands\PricingCommands\" />
     <Folder Include="Features\Mediator\Handlers\PricingHandlers\" />
+    <Folder Include="Features\Mediator\Results\ServiceResults\" />
+    <Folder Include="Features\Mediator\Queries\ServiceQueries\" />
+    <Folder Include="Features\Mediator\Commands\ServiceCommands\" />
+    <Folder Include="Features\Mediator\Handlers\ServiceHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
