@@ -65,6 +65,10 @@
     <None Remove="Features\Mediator\Queries\ServiceQueries\" />
     <None Remove="Features\Mediator\Commands\ServiceCommands\" />
     <None Remove="Features\Mediator\Handlers\ServiceHandlers\" />
+    <None Remove="Features\Mediator\Results\SocialMediaResults\" />
+    <None Remove="Features\Mediator\Queries\SocialMediaQueries\" />
+    <None Remove="Features\Mediator\Commands\SocialMediaCommands\" />
+    <None Remove="Features\Mediator\Handlers\SocialMediaHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -125,6 +129,10 @@
     <Folder Include="Features\Mediator\Queries\ServiceQueries\" />
     <Folder Include="Features\Mediator\Commands\ServiceCommands\" />
     <Folder Include="Features\Mediator\Handlers\ServiceHandlers\" />
+    <Folder Include="Features\Mediator\Results\SocialMediaResults\" />
+    <Folder Include="Features\Mediator\Queries\SocialMediaQueries\" />
+    <Folder Include="Features\Mediator\Commands\SocialMediaCommands\" />
+    <Folder Include="Features\Mediator\Handlers\SocialMediaHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
