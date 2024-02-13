@@ -17,9 +17,17 @@
   <ItemGroup>
     <None Remove="Views\UILayout\" />
     <None Remove="Views\About\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\UILayoutViewComponents\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\_HeadUILayoutComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
     <Folder Include="Views\About\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\UILayoutViewComponents\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\_HeadUILayoutComponentPartial\" />
   </ItemGroup>
 </Project>
