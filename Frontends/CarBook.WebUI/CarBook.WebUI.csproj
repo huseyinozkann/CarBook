@@ -27,6 +27,8 @@
     <None Remove="Views\Shared\Components\_ScriptUILayoutComponentPartial\" />
     <None Remove="ViewComponents\AboutViewComponents\" />
     <None Remove="Views\Shared\Components\_AboutUsComponentPartial\" />
+    <None Remove="Views\Shared\Components\_BecomeADriverComponentPartial\" />
+    <None Remove="ViewComponents\TestimonialViewComponents\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -41,6 +43,8 @@
     <Folder Include="Views\Shared\Components\_ScriptUILayoutComponentPartial\" />
     <Folder Include="ViewComponents\AboutViewComponents\" />
     <Folder Include="Views\Shared\Components\_AboutUsComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_BecomeADriverComponentPartial\" />
+    <Folder Include="ViewComponents\TestimonialViewComponents\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
