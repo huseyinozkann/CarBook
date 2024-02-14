@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{DAC87E89-A808-437A-B1FB-E8D5E281D7F2}|https">
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/About/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Shared/Components/_AboutUsComponentPartial/Default.cshtml">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Controllers/UILayoutController.cs" Line="14" Column="33" />
-      <File FileName="Frontends/CarBook.WebUI/Views/UILayout/Index.cshtml" Line="8" Column="14" />
-      <File FileName="Frontends/CarBook.WebUI/Controllers/AboutController.cs" Line="1" Column="1" />
-      <File FileName="Frontends/CarBook.WebUI/Views/About/Index.cshtml" Line="10" Column="1" />
+      <File FileName="Frontends/CarBook.WebUI/Views/UILayout/Index.cshtml" />
+      <File FileName="Frontends/CarBook.WebUI/Views/About/Index.cshtml" />
+      <File FileName="Frontends/CarBook.WebUI/ViewComponents/AboutViewComponents/_AboutUsComponentPartial.cs" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_AboutUsComponentPartial/Default.cshtml" Line="13" Column="92" />
+      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/about.html" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,12 +13,18 @@
           <Node name="CarBook">
             <Node name="Frontends">
               <Node name="CarBook.WebUI" expanded="True">
-                <Node name="Controllers" expanded="True" />
                 <Node name="Views" expanded="True">
-                  <Node name="About" expanded="True">
-                    <Node name="Index.cshtml" selected="True" />
+                  <Node name="Shared" expanded="True">
+                    <Node name="Components" expanded="True">
+                      <Node name="_AboutUsComponentPartial" expanded="True">
+                        <Node name="Default.cshtml" selected="True" />
+                      </Node>
+                    </Node>
                   </Node>
                   <Node name="UILayout" expanded="True" />
+                </Node>
+                <Node name="wwwroot" expanded="True">
+                  <Node name="carbook-master" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -28,10 +34,11 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
