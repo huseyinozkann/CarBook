@@ -42,4 +42,9 @@
     <Folder Include="ViewComponents\AboutViewComponents\" />
     <Folder Include="Views\Shared\Components\_AboutUsComponentPartial\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

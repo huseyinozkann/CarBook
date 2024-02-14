@@ -5,14 +5,6 @@
       "PackagePath": "staticwebassets/CarBook.WebUI.bundle.scp.css"
     },
     {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/.DS_Store",
-      "PackagePath": "staticwebassets/.DS_Store"
-    },
-    {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/.DS_Store"
-    },
-    {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/about.html",
       "PackagePath": "staticwebassets/carbook-master/about.html"
     },
@@ -37,10 +29,6 @@
       "PackagePath": "staticwebassets/carbook-master/contact.html"
     },
     {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/css/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/css/.DS_Store"
-    },
-    {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/css/ajax-loader.gif",
       "PackagePath": "staticwebassets/carbook-master/css/ajax-loader.gif"
     },
@@ -61,20 +49,12 @@
       "PackagePath": "staticwebassets/carbook-master/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/css/bootstrap/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/css/bootstrap/.DS_Store"
-    },
-    {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/css/bootstrap/bootstrap-grid.css",
       "PackagePath": "staticwebassets/carbook-master/css/bootstrap/bootstrap-grid.css"
     },
     {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/css/bootstrap/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/carbook-master/css/bootstrap/bootstrap-reboot.css"
-    },
-    {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/css/css/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/css/css/.DS_Store"
     },
     {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/css/css/bootstrap-reboot.css",
@@ -121,20 +101,8 @@
       "PackagePath": "staticwebassets/carbook-master/css/style.css"
     },
     {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/fonts/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/fonts/.DS_Store"
-    },
-    {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/fonts/flaticon/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/fonts/flaticon/.DS_Store"
-    },
-    {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/fonts/flaticon/backup.txt",
       "PackagePath": "staticwebassets/carbook-master/fonts/flaticon/backup.txt"
-    },
-    {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/fonts/flaticon/font/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/fonts/flaticon/font/.DS_Store"
     },
     {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/fonts/flaticon/font/Flaticon.eot",
@@ -197,10 +165,6 @@
       "PackagePath": "staticwebassets/carbook-master/fonts/ionicons/css/ionicons.min.css"
     },
     {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/fonts/ionicons/fonts/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/fonts/ionicons/fonts/.DS_Store"
-    },
-    {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/fonts/ionicons/fonts/ionicons.eot",
       "PackagePath": "staticwebassets/carbook-master/fonts/ionicons/fonts/ionicons.eot"
     },
@@ -239,10 +203,6 @@
     {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/fonts/open-iconic/open-iconic.woff",
       "PackagePath": "staticwebassets/carbook-master/fonts/open-iconic/open-iconic.woff"
-    },
-    {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/images/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/images/.DS_Store"
     },
     {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/images/about.jpg",
@@ -353,10 +313,6 @@
       "PackagePath": "staticwebassets/carbook-master/images/person_4.jpg"
     },
     {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/js/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/js/.DS_Store"
-    },
-    {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/js/aos.js",
       "PackagePath": "staticwebassets/carbook-master/js/aos.js"
     },
@@ -443,14 +399,6 @@
     {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/readme.txt",
       "PackagePath": "staticwebassets/carbook-master/readme.txt"
-    },
-    {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/scss/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/scss/.DS_Store"
-    },
-    {
-      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/scss/bootstrap/.DS_Store",
-      "PackagePath": "staticwebassets/carbook-master/scss/bootstrap/.DS_Store"
     },
     {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/scss/bootstrap/_alert.scss",

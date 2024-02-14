@@ -3242,6 +3242,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "CarBook.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CarBook.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarBook.Dto.dll": {}
+        }
       }
     }
   },
@@ -9651,10 +9661,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "CarBook.Dto/1.0.0": {
+      "type": "project",
+      "path": "../CarBook.Dto/CarBook.Dto.csproj",
+      "msbuildProject": "../CarBook.Dto/CarBook.Dto.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "CarBook.Dto >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.11"
     ]
   },
@@ -9677,13 +9693,16 @@
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.313/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.Dto/CarBook.Dto.csproj": {
+              "projectPath": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.Dto/CarBook.Dto.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -9712,6 +9731,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9720,7 +9753,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
