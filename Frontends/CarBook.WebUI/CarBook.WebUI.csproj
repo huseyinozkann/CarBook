@@ -30,6 +30,7 @@
     <None Remove="Views\Shared\Components\_BecomeADriverComponentPartial\" />
     <None Remove="ViewComponents\TestimonialViewComponents\" />
     <None Remove="Views\Shared\Components\_TestimonialComponentPartial\" />
+    <None Remove="Views\Service\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -47,6 +48,7 @@
     <Folder Include="Views\Shared\Components\_BecomeADriverComponentPartial\" />
     <Folder Include="ViewComponents\TestimonialViewComponents\" />
     <Folder Include="Views\Shared\Components\_TestimonialComponentPartial\" />
+    <Folder Include="Views\Service\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
