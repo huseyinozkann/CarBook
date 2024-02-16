@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarBook.WebUI
 build_property.RootNamespace = CarBook.WebUI
 build_property.ProjectDir = /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -18,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 
 [/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Views/Car/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Views/Home/Index.cshtml]
