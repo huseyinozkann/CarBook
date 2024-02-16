@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarBook.WebUI
 build_property.RootNamespace = CarBook.WebUI
 build_property.ProjectDir = /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -54,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Views/Shared/Components/_ScriptUILayoutComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NjcmlwdFVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Views/Shared/Components/_TestimonialComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1Rlc3RpbW9uaWFsQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Views/Shared/Error.cshtml]
