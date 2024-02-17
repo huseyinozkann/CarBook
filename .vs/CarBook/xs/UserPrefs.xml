@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/ViewComponents/TestimonialViewComponents/_TestimonialComponentPartial.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Car/Index.cshtml">
     <Files>
       <File FileName="Frontends/CarBook.WebUI/Views/UILayout/Index.cshtml" Line="1" Column="1" />
-      <File FileName="Frontends/CarBook.WebUI/Views/About/Index.cshtml" Line="12" Column="1" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_BecomeADriverComponentPartial/Default.cshtml" Line="1" Column="72" />
-      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/about.html" Line="84" Column="3" />
-      <File FileName="Frontends/CarBook.WebUI/ViewComponents/TestimonialViewComponents/_TestimonialComponentPartial.cs" Line="9" Column="58" />
+      <File FileName="Frontends/CarBook.WebUI/Views/About/Index.cshtml" Line="7" Column="2" />
+      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/services.html" Line="65" Column="5" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/CarController.cs" Line="24" Column="87" />
+      <File FileName="Frontends/CarBook.Dto/CarDtos/ResultCarWithBrandsDto.cs" Line="8" Column="27" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Car/Index.cshtml" Line="15" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,20 +18,13 @@
           <Node name="CarBook" expanded="True">
             <Node name="Frontends" expanded="True">
               <Node name="CarBook.Dto" expanded="True">
-                <Node name="AboutDtos" expanded="True" />
+                <Node name="CarDtos" expanded="True" />
               </Node>
-              <Node name="CarBook.WebUI">
-                <Node name="ViewComponents" expanded="True">
-                  <Node name="AboutViewComponents" expanded="True" />
-                  <Node name="TestimonialViewComponents" expanded="True" />
-                </Node>
+              <Node name="CarBook.WebUI" expanded="True">
+                <Node name="Controllers" expanded="True" />
                 <Node name="Views" expanded="True">
-                  <Node name="About" expanded="True" />
-                  <Node name="Shared" expanded="True">
-                    <Node name="Components" expanded="True">
-                      <Node name="_BecomeADriverComponentPartial" expanded="True" />
-                    </Node>
-                  </Node>
+                  <Node name="Car" expanded="True" />
+                  <Node name="Service" expanded="True" />
                   <Node name="UILayout" expanded="True" />
                 </Node>
                 <Node name="wwwroot" expanded="True">
@@ -37,17 +32,14 @@
                 </Node>
               </Node>
             </Node>
-            <Node name="Presentation" expanded="True">
-              <Node name="CarBook.WebApi" expanded="True" />
-            </Node>
+            <Node name="Presentation" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
