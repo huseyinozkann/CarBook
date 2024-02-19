@@ -7,6 +7,7 @@ namespace CarBook.Domain.Entities
 
 		public string Name { get; set; }
 
+		public List<Blog> Blogs { get; set; }
 	}
 }
 

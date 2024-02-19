@@ -17,3 +17,4 @@
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/ref/CarBook.Persistence.dll
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/bin/Debug/net7.0/CarBook.Application.dll
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/bin/Debug/net7.0/CarBook.Application.pdb
+/Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/CarBook.Persistence.sourcelink.json
