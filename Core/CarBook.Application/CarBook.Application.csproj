@@ -73,6 +73,10 @@
     <None Remove="Features\Mediator\Queries\TestimonialQueries\" />
     <None Remove="Features\Mediator\Commands\TestimonialCommands\" />
     <None Remove="Features\Mediator\Handlers\TestimonialHandlers\" />
+    <None Remove="Features\Mediator\Results\AuthorResults\" />
+    <None Remove="Features\Mediator\Queries\AuthorQueries\" />
+    <None Remove="Features\Mediator\Commands\AuthorCommands\" />
+    <None Remove="Features\Mediator\Handlers\AuthorHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -141,6 +145,10 @@
     <Folder Include="Features\Mediator\Queries\TestimonialQueries\" />
     <Folder Include="Features\Mediator\Commands\TestimonialCommands\" />
     <Folder Include="Features\Mediator\Handlers\TestimonialHandlers\" />
+    <Folder Include="Features\Mediator\Results\AuthorResults\" />
+    <Folder Include="Features\Mediator\Queries\AuthorQueries\" />
+    <Folder Include="Features\Mediator\Commands\AuthorCommands\" />
+    <Folder Include="Features\Mediator\Handlers\AuthorHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
