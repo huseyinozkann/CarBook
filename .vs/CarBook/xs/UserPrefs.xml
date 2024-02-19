@@ -1,30 +1,44 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Car/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Shared/Components/_DefaultCoverUILayoutComponentPartial/Default.cshtml">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Views/UILayout/Index.cshtml" Line="1" Column="1" />
-      <File FileName="Frontends/CarBook.WebUI/Views/About/Index.cshtml" Line="7" Column="2" />
-      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/services.html" Line="65" Column="5" />
-      <File FileName="Frontends/CarBook.WebUI/Controllers/CarController.cs" Line="24" Column="87" />
-      <File FileName="Frontends/CarBook.Dto/CarDtos/ResultCarWithBrandsDto.cs" Line="8" Column="27" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Car/Index.cshtml" Line="15" Column="31" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/DefaultController.cs" Line="13" Column="9" />
+      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/index.html" Line="503" Column="77" />
+      <File FileName="Frontends/CarBook.WebUI/Views/UILayout/Index.cshtml" Line="13" Column="69" />
+      <File FileName="Frontends/CarBook.WebUI/ViewComponents/DefaultViewComponents/_DefaultCoverUILayoutComponentPartial.cs" Line="27" Column="27" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Default/Index.cshtml" Line="15" Column="5" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_DefaultCoverUILayoutComponentPartial/Default.cshtml" Line="21" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarBook" expanded="True">
-            <Node name="Frontends" expanded="True">
-              <Node name="CarBook.Dto" expanded="True">
-                <Node name="CarDtos" expanded="True" />
+            <Node name="Core" expanded="True">
+              <Node name="CarBook.Domain">
+                <Node name="Entities" expanded="True" />
               </Node>
-              <Node name="CarBook.WebUI" expanded="True">
+            </Node>
+            <Node name="Frontends" expanded="True">
+              <Node name="CarBook.Dto">
+                <Node name="BannerDtos" expanded="True" />
+              </Node>
+              <Node name="CarBook.WebUI">
                 <Node name="Controllers" expanded="True" />
-                <Node name="Views" expanded="True">
-                  <Node name="Car" expanded="True" />
-                  <Node name="Service" expanded="True" />
+                <Node name="ViewComponents" expanded="True">
+                  <Node name="DefaultViewComponents" expanded="True" />
+                  <Node name="TestimonialViewComponents" expanded="True" />
+                </Node>
+                <Node name="Views">
+                  <Node name="Default" expanded="True" />
+                  <Node name="Shared" expanded="True">
+                    <Node name="Components" expanded="True">
+                      <Node name="_DefaultCoverUILayoutComponentPartial" expanded="True">
+                        <Node name="Default.cshtml" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
                   <Node name="UILayout" expanded="True" />
                 </Node>
                 <Node name="wwwroot" expanded="True">
@@ -38,8 +52,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

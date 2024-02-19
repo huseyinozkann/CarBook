@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "22Ml+KLxaRzNnZmNkV/3Cv8comZIUopar9zXGlRowrU=",
+  "Hash": "NTHjtS2BXGaSde0NQN/5MSgZNbtQcim3XWiOkides78=",
   "Source": "CarBook.WebUI",
   "BasePath": "_content/CarBook.WebUI",
   "Mode": "Default",
@@ -1516,6 +1516,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/carbook-master/images/person_4.jpg"
+    },
+    {
+      "Identity": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/index.html",
+      "SourceId": "CarBook.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/",
+      "BasePath": "_content/CarBook.WebUI",
+      "RelativePath": "carbook-master/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/carbook-master/index.html"
     },
     {
       "Identity": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/js/aos.js",

@@ -13,6 +13,7 @@
     <None Remove="CarDtos\" />
     <None Remove="FooterAddressDtos\" />
     <None Remove="ContactDtos\" />
+    <None Remove="BannerDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AboutDtos\" />
@@ -21,5 +22,6 @@
     <Folder Include="CarDtos\" />
     <Folder Include="FooterAddressDtos\" />
     <Folder Include="ContactDtos\" />
+    <Folder Include="BannerDtos\" />
   </ItemGroup>
 </Project>

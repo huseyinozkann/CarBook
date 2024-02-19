@@ -313,6 +313,10 @@
       "PackagePath": "staticwebassets/carbook-master/images/person_4.jpg"
     },
     {
+      "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/index.html",
+      "PackagePath": "staticwebassets/carbook-master/index.html"
+    },
+    {
       "Id": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/wwwroot/carbook-master/js/aos.js",
       "PackagePath": "staticwebassets/carbook-master/js/aos.js"
     },
