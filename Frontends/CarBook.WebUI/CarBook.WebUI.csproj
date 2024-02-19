@@ -35,6 +35,9 @@
     <None Remove="Views\Default\" />
     <None Remove="ViewComponents\DefaultViewComponents\" />
     <None Remove="Views\Shared\Components\_DefaultCoverUILayoutComponentPartial\" />
+    <None Remove="Views\Shared\Components\_DefaultLast5CarsWithBrandsComponentPartial\" />
+    <None Remove="ViewComponents\ServiceViewComponents\" />
+    <None Remove="Views\Shared\Components\_ServiceComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -60,6 +63,9 @@
     <Folder Include="Views\Default\" />
     <Folder Include="ViewComponents\DefaultViewComponents\" />
     <Folder Include="Views\Shared\Components\_DefaultCoverUILayoutComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_DefaultLast5CarsWithBrandsComponentPartial\" />
+    <Folder Include="ViewComponents\ServiceViewComponents\" />
+    <Folder Include="Views\Shared\Components\_ServiceComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
