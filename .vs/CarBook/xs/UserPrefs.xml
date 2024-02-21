@@ -1,42 +1,49 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Shared/Components/_DefaultCoverUILayoutComponentPartial/Default.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/CarBook.WebApi/Controllers/AuthorsController.cs">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Controllers/DefaultController.cs" Line="13" Column="9" />
-      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/index.html" Line="503" Column="77" />
-      <File FileName="Frontends/CarBook.WebUI/Views/UILayout/Index.cshtml" Line="13" Column="69" />
-      <File FileName="Frontends/CarBook.WebUI/ViewComponents/DefaultViewComponents/_DefaultCoverUILayoutComponentPartial.cs" Line="27" Column="27" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Default/Index.cshtml" Line="15" Column="5" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_DefaultCoverUILayoutComponentPartial/Default.cshtml" Line="21" Column="23" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Default/Index.cshtml" Line="69" Column="24" />
+      <File FileName="Core/CarBook.Domain/Entities/Author.cs" Line="12" Column="42" />
+      <File FileName="Core/CarBook.Domain/Entities/Blog.cs" Line="1" Column="1" />
+      <File FileName="Presentation/CarBook.WebApi/Controllers/AuthorsController.cs" Line="50" Column="50" />
+      <File FileName="Presentation/CarBook.WebApi/Controllers/LocationsController.cs" Line="58" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarBook" expanded="True">
+          <Node name="CarBook">
             <Node name="Core" expanded="True">
-              <Node name="CarBook.Domain">
+              <Node name="CarBook.Application" expanded="True">
+                <Node name="Features" expanded="True">
+                  <Node name="Mediator" expanded="True">
+                    <Node name="Commands" expanded="True">
+                      <Node name="AuthorCommands" expanded="True" />
+                    </Node>
+                    <Node name="Handlers" expanded="True">
+                      <Node name="AuthorHandlers" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="CarBook.Domain" expanded="True">
                 <Node name="Entities" expanded="True" />
               </Node>
             </Node>
             <Node name="Frontends" expanded="True">
-              <Node name="CarBook.Dto">
-                <Node name="BannerDtos" expanded="True" />
-              </Node>
-              <Node name="CarBook.WebUI">
-                <Node name="Controllers" expanded="True" />
-                <Node name="ViewComponents" expanded="True">
-                  <Node name="DefaultViewComponents" expanded="True" />
-                  <Node name="TestimonialViewComponents" expanded="True" />
-                </Node>
-                <Node name="Views">
-                  <Node name="Default" expanded="True" />
+              <Node name="CarBook.Dto" expanded="True" />
+              <Node name="CarBook.WebUI" expanded="True">
+                <Node name="ViewComponents" expanded="True" />
+                <Node name="Views" expanded="True">
                   <Node name="Shared" expanded="True">
                     <Node name="Components" expanded="True">
-                      <Node name="_DefaultCoverUILayoutComponentPartial" expanded="True">
-                        <Node name="Default.cshtml" selected="True" />
-                      </Node>
+                      <Node name="_ServiceComponentPartial" expanded="True" />
                     </Node>
                   </Node>
                   <Node name="UILayout" expanded="True" />
@@ -46,15 +53,22 @@
                 </Node>
               </Node>
             </Node>
-            <Node name="Presentation" expanded="True" />
+            <Node name="Infrastructure">
+              <Node name="CarBook.Persistence">
+                <Node name="Context" expanded="True" />
+                <Node name="Repositories" expanded="True">
+                  <Node name="CarRepositories" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Presentation">
+              <Node name="CarBook.WebApi">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
