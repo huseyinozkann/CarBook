@@ -10,11 +10,13 @@
     <None Remove="Context\" />
     <None Remove="Repositories\" />
     <None Remove="Repositories\CarRepositories\" />
+    <None Remove="Repositories\BlogRepositories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
     <Folder Include="Repositories\" />
     <Folder Include="Repositories\CarRepositories\" />
+    <Folder Include="Repositories\BlogRepositories\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.15">
