@@ -15,6 +15,7 @@
     <None Remove="ContactDtos\" />
     <None Remove="BannerDtos\" />
     <None Remove="BlogDtos\" />
+    <None Remove="CarPricingDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AboutDtos\" />
@@ -25,5 +26,6 @@
     <Folder Include="ContactDtos\" />
     <Folder Include="BannerDtos\" />
     <Folder Include="BlogDtos\" />
+    <Folder Include="CarPricingDtos\" />
   </ItemGroup>
 </Project>
