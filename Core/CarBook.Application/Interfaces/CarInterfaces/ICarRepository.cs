@@ -8,7 +8,6 @@ namespace CarBook.Application.Interfaces.CarInterfaces
 
 		List<Car> GetLast5CarsWithBrands();
 
-		List<Car> GetCarsWithPricings();
 	}
 }
 
