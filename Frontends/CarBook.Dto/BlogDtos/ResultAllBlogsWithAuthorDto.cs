@@ -1,7 +1,7 @@
 ﻿using System;
-namespace CarBook.Application.Features.Mediator.Results.BlogResults
+namespace CarBook.Dto.BlogDtos
 {
-	public class GetAllBlogsWithAuthorQueryResult
+	public class ResultAllBlogsWithAuthorDto
 	{
         public int BlogID { get; set; }
 
@@ -17,10 +17,9 @@ namespace CarBook.Application.Features.Mediator.Results.BlogResults
 
         public string AuthorName { get; set; }
 
-        public string CategoryName { get; set; }
+        public object CategoryName { get; set; }
 
         public string Description { get; set; }
-
     }
 }
 

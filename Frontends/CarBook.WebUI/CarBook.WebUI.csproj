@@ -41,6 +41,8 @@
     <None Remove="ViewComponents\BlogViewComponents\" />
     <None Remove="Views\Shared\Components\_GetLast3BlogsWithAuthorListViewComponentPartial\" />
     <None Remove="Views\Shared\Components\_DefaultStatisticsComponentPartial\" />
+    <None Remove="Views\Blog\" />
+    <None Remove="Views\Shared\Components\_BlogDetailSideBarSearchBoxComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -72,6 +74,8 @@
     <Folder Include="ViewComponents\BlogViewComponents\" />
     <Folder Include="Views\Shared\Components\_GetLast3BlogsWithAuthorListViewComponentPartial\" />
     <Folder Include="Views\Shared\Components\_DefaultStatisticsComponentPartial\" />
+    <Folder Include="Views\Blog\" />
+    <Folder Include="Views\Shared\Components\_BlogDetailSideBarSearchBoxComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
