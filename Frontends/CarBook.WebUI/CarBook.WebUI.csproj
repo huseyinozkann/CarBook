@@ -43,6 +43,9 @@
     <None Remove="Views\Shared\Components\_DefaultStatisticsComponentPartial\" />
     <None Remove="Views\Blog\" />
     <None Remove="Views\Shared\Components\_BlogDetailSideBarSearchBoxComponentPartial\" />
+    <None Remove="Views\Shared\Components\_BlogDetailsCategoryComponentPartial\" />
+    <None Remove="Views\Shared\Components\_BlogDetailsRecentBlogsComponentPartial\" />
+    <None Remove="Views\Shared\Components\_BlogDetailsTagCloudComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -76,6 +79,9 @@
     <Folder Include="Views\Shared\Components\_DefaultStatisticsComponentPartial\" />
     <Folder Include="Views\Blog\" />
     <Folder Include="Views\Shared\Components\_BlogDetailSideBarSearchBoxComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_BlogDetailsCategoryComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_BlogDetailsRecentBlogsComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_BlogDetailsTagCloudComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
