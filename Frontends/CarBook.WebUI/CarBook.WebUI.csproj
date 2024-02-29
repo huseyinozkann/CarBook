@@ -46,6 +46,7 @@
     <None Remove="Views\Shared\Components\_BlogDetailsCategoryComponentPartial\" />
     <None Remove="Views\Shared\Components\_BlogDetailsRecentBlogsComponentPartial\" />
     <None Remove="Views\Shared\Components\_BlogDetailsTagCloudComponentPartial\" />
+    <None Remove="Views\Shared\Components\_BlogDetailsParagraphComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -82,6 +83,7 @@
     <Folder Include="Views\Shared\Components\_BlogDetailsCategoryComponentPartial\" />
     <Folder Include="Views\Shared\Components\_BlogDetailsRecentBlogsComponentPartial\" />
     <Folder Include="Views\Shared\Components\_BlogDetailsTagCloudComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_BlogDetailsParagraphComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
