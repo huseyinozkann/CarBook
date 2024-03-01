@@ -86,6 +86,10 @@
     <None Remove="Features\Mediator\Results\CarPricingResults\" />
     <None Remove="Features\Mediator\Queries\CarPricingQueries\" />
     <None Remove="Features\Mediator\Handlers\CarPricingHandlers\" />
+    <None Remove="Features\Mediator\Results\TagCloudResults\" />
+    <None Remove="Features\Mediator\Queries\TagCloudQueries\" />
+    <None Remove="Features\Mediator\Commands\TagCloudCommands\" />
+    <None Remove="Features\Mediator\Handlers\TagCloudHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -167,6 +171,10 @@
     <Folder Include="Features\Mediator\Results\CarPricingResults\" />
     <Folder Include="Features\Mediator\Queries\CarPricingQueries\" />
     <Folder Include="Features\Mediator\Handlers\CarPricingHandlers\" />
+    <Folder Include="Features\Mediator\Results\TagCloudResults\" />
+    <Folder Include="Features\Mediator\Queries\TagCloudQueries\" />
+    <Folder Include="Features\Mediator\Commands\TagCloudCommands\" />
+    <Folder Include="Features\Mediator\Handlers\TagCloudHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
