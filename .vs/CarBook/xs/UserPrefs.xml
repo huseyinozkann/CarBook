@@ -2,41 +2,33 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Blog/BlogDetail.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/CarBook.WebApi/Controllers/TagCloudsController.cs">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_NavbarUILayoutComponentPartial/Default.cshtml" Line="16" Column="59" />
-      <File FileName="Frontends/CarBook.WebUI/Controllers/BlogController.cs" Line="41" Column="27" />
-      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/blog.html" Line="65" Column="5" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_BlogDetailSideBarSearchBoxComponentPartial/Default.cshtml" Line="5" Column="94" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_NavbarUILayoutComponentPartial/Default.cshtml" Line="20" Column="11" />
       <File FileName="Frontends/CarBook.WebUI/Views/Blog/BlogDetail.cshtml" Line="23" Column="11" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_BlogDetailsMainComponentPartial/Default.cshtml" Line="149" Column="7" />
+      <File FileName="Presentation/CarBook.WebApi/Controllers/TagCloudsController.cs" Line="22" Column="34" />
+      <File FileName="Presentation/CarBook.WebApi/Controllers/LocationsController.cs" Line="58" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarBook" expanded="True">
-            <Node name="Core" expanded="True" />
             <Node name="Frontends" expanded="True">
               <Node name="CarBook.Dto" expanded="True">
-                <Node name="BlogDtos" expanded="True" />
+                <Node name="CategoryDtos" expanded="True" />
               </Node>
-              <Node name="CarBook.WebUI">
+              <Node name="CarBook.WebUI" expanded="True">
                 <Node name="Controllers" expanded="True" />
                 <Node name="ViewComponents" expanded="True">
                   <Node name="BlogViewComponents" expanded="True" />
                 </Node>
-                <Node name="Views">
-                  <Node name="Blog">
-                    <Node name="BlogDetail.cshtml" selected="True" />
-                  </Node>
+                <Node name="Views" expanded="True">
+                  <Node name="Blog" expanded="True" />
                   <Node name="Shared" expanded="True">
                     <Node name="Components" expanded="True">
-                      <Node name="_BlogDetailsMainComponentPartial" expanded="True" />
-                      <Node name="_BlogDetailsParagraphComponentPartial" expanded="True" />
+                      <Node name="_BlogDetailsRecentBlogsComponentPartial" expanded="True" />
+                      <Node name="_NavbarUILayoutComponentPartial" expanded="True" />
                     </Node>
                   </Node>
                 </Node>
@@ -50,5 +42,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
