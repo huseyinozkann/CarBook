@@ -50,6 +50,9 @@
     <None Remove="Views\Shared\Components\_BlogDetailsMainComponentPartial\" />
     <None Remove="Views\Shared\Components\_BlogDetailCloudTagByBlogComponentPartial\" />
     <None Remove="Views\Shared\Components\_BlogDetailsAuthorAboutComponentPartial\" />
+    <None Remove="ViewComponents\CommentViewComponents\" />
+    <None Remove="Views\Shared\Components\_CommentListByBlogComponentPartial\" />
+    <None Remove="Views\Shared\Components\_AddCommentComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -90,6 +93,9 @@
     <Folder Include="Views\Shared\Components\_BlogDetailsMainComponentPartial\" />
     <Folder Include="Views\Shared\Components\_BlogDetailCloudTagByBlogComponentPartial\" />
     <Folder Include="Views\Shared\Components\_BlogDetailsAuthorAboutComponentPartial\" />
+    <Folder Include="ViewComponents\CommentViewComponents\" />
+    <Folder Include="Views\Shared\Components\_CommentListByBlogComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_AddCommentComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
