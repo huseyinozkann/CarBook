@@ -13,4 +13,3 @@
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/refint/CarBook.Application.dll
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.pdb
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/ref/CarBook.Application.dll
-/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.sourcelink.json
