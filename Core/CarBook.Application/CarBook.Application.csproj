@@ -91,6 +91,7 @@
     <None Remove="Features\Mediator\Commands\TagCloudCommands\" />
     <None Remove="Features\Mediator\Handlers\TagCloudHandlers\" />
     <None Remove="Interfaces\TagCloudInterfaces\" />
+    <None Remove="Features\RepositoryPattern\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -177,6 +178,7 @@
     <Folder Include="Features\Mediator\Commands\TagCloudCommands\" />
     <Folder Include="Features\Mediator\Handlers\TagCloudHandlers\" />
     <Folder Include="Interfaces\TagCloudInterfaces\" />
+    <Folder Include="Features\RepositoryPattern\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />

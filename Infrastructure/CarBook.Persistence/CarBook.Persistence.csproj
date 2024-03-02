@@ -13,6 +13,7 @@
     <None Remove="Repositories\BlogRepositories\" />
     <None Remove="Repositories\CarPricingRepositories\" />
     <None Remove="Repositories\TagCloudRepositories\" />
+    <None Remove="Repositories\CommentRepositories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
@@ -21,6 +22,7 @@
     <Folder Include="Repositories\BlogRepositories\" />
     <Folder Include="Repositories\CarPricingRepositories\" />
     <Folder Include="Repositories\TagCloudRepositories\" />
+    <Folder Include="Repositories\CommentRepositories\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.15">
