@@ -23,6 +23,8 @@ namespace CarBook.Domain.Entities
 
 		public List<TagCloud> TagClouds { get; set; }
 
+		public List<Comment> Comments { get; set; }
+
 	}
 }
 

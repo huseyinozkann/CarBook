@@ -49,6 +49,8 @@ namespace CarBook.Persistence.Context
 
         public DbSet<TagCloud> TagClouds { get; set; }
 
+        public DbSet<Comment> Comments { get; set; }
+
     }
 }
 
