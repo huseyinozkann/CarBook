@@ -18,6 +18,7 @@
     <None Remove="CarPricingDtos\" />
     <None Remove="CategoryDtos\" />
     <None Remove="TagCloudDtos\" />
+    <None Remove="AuthorDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AboutDtos\" />
@@ -31,5 +32,6 @@
     <Folder Include="CarPricingDtos\" />
     <Folder Include="CategoryDtos\" />
     <Folder Include="TagCloudDtos\" />
+    <Folder Include="AuthorDtos\" />
   </ItemGroup>
 </Project>
