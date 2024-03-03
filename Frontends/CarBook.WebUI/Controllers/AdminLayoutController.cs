@@ -10,7 +10,7 @@ namespace CarBook.WebUI.Controllers
 {
     public class AdminLayoutController : Controller
     {
-        // GET: /<controller>/
+        
         public IActionResult Index()
         {
             return View();
