@@ -53,6 +53,7 @@
     <None Remove="ViewComponents\CommentViewComponents\" />
     <None Remove="Views\Shared\Components\_CommentListByBlogComponentPartial\" />
     <None Remove="Views\Shared\Components\_AddCommentComponentPartial\" />
+    <None Remove="Views\AdminLayout\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -96,6 +97,7 @@
     <Folder Include="ViewComponents\CommentViewComponents\" />
     <Folder Include="Views\Shared\Components\_CommentListByBlogComponentPartial\" />
     <Folder Include="Views\Shared\Components\_AddCommentComponentPartial\" />
+    <Folder Include="Views\AdminLayout\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
