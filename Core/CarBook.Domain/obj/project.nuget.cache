@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IG5585faDbvCmd1CBfEnHSET1Lu2Q0XELvxjkZLyWK6npEZ0G7T5iQquyeXu+NILB49FzuafOuVymc9M2RG6Bg==",
+  "dgSpecHash": "StLLwtdkYzFXgsW7R5cqVClDar5vJI+NhpdnGda5k+5FZ4kV3+XWeDk8p8W7af3RAYl6JI1BY+6MuATg0V/B0A==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/CarBook.Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/huseyinozkan/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "/Users/huseyinozkan/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
