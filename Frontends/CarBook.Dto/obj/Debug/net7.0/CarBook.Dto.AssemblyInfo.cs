@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarBook.Dto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8ce0f45b564e8216a67aac3b17b997204e08c43")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c273568065d23aa321ebeb53dc6d90a978d75f58")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarBook.Dto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarBook.Dto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
