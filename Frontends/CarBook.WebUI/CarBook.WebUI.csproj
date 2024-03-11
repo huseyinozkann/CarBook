@@ -55,6 +55,7 @@
     <None Remove="Views\Shared\Components\_AddCommentComponentPartial\" />
     <None Remove="Views\AdminLayout\" />
     <None Remove="Views\AdminCar\" />
+    <None Remove="Views\AdminFeature\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -100,6 +101,7 @@
     <Folder Include="Views\Shared\Components\_AddCommentComponentPartial\" />
     <Folder Include="Views\AdminLayout\" />
     <Folder Include="Views\AdminCar\" />
+    <Folder Include="Views\AdminFeature\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">

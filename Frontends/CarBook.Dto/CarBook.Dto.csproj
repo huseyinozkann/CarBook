@@ -20,6 +20,7 @@
     <None Remove="TagCloudDtos\" />
     <None Remove="AuthorDtos\" />
     <None Remove="BrandDtos\" />
+    <None Remove="FeatureDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AboutDtos\" />
@@ -35,5 +36,6 @@
     <Folder Include="TagCloudDtos\" />
     <Folder Include="AuthorDtos\" />
     <Folder Include="BrandDtos\" />
+    <Folder Include="FeatureDtos\" />
   </ItemGroup>
 </Project>
