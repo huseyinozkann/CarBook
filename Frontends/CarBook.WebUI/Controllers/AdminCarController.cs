@@ -78,6 +78,7 @@ namespace CarBook.WebUI.Controllers
             return View();
         }
 
+        [HttpGet]
         public async Task<IActionResult> UpdateCar(int id)
         {
             var client = _httpClientFactory.CreateClient();
