@@ -1,27 +1,26 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/AdminFeature/Index.cshtml">
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Controllers/AdminBrandController.cs">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Views/AdminFeature/Index.cshtml" Line="8" Column="27" />
-      <File FileName="Frontends/CarBook.WebUI/Views/AdminLayout/AdminSidebarPartial.cshtml" Line="22" Column="144" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/AdminBrandController.cs" Line="37" Column="10" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/AdminFeatureController.cs" Line="19" Column="1" />
+      <File FileName="Frontends/CarBook.WebUI/Views/AdminBrand/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarBook" expanded="True">
+          <Node name="CarBook">
             <Node name="Core" expanded="True" />
-            <Node name="Frontends" expanded="True">
-              <Node name="CarBook.Dto" expanded="True" />
+            <Node name="Frontends">
+              <Node name="CarBook.Dto" expanded="True">
+                <Node name="BrandDtos" expanded="True" />
+              </Node>
               <Node name="CarBook.WebUI">
-                <Node name="Controllers" expanded="True" />
+                <Node name="Controllers">
+                  <Node name="AdminBrandController.cs" selected="True" />
+                </Node>
                 <Node name="Views" expanded="True">
-                  <Node name="AdminCar" expanded="True" />
-                  <Node name="AdminFeature">
-                    <Node name="Index.cshtml" selected="True" />
-                  </Node>
-                  <Node name="AdminLayout" expanded="True" />
+                  <Node name="AdminBrand" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -30,9 +29,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
