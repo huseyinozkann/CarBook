@@ -57,6 +57,10 @@
     <None Remove="Views\AdminCar\" />
     <None Remove="Views\AdminFeature\" />
     <None Remove="Views\AdminBrand\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Admin\Views\" />
+    <None Remove="Areas\Admin\Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -104,6 +108,10 @@
     <Folder Include="Views\AdminCar\" />
     <Folder Include="Views\AdminFeature\" />
     <Folder Include="Views\AdminBrand\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Areas\Admin\Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
