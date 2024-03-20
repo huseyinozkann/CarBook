@@ -61,6 +61,7 @@
     <None Remove="Areas\Admin\" />
     <None Remove="Areas\Admin\Views\" />
     <None Remove="Areas\Admin\Controllers\" />
+    <None Remove="Areas\Admin\Views\AdminBanner\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -112,6 +113,7 @@
     <Folder Include="Areas\Admin\" />
     <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Views\AdminBanner\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
