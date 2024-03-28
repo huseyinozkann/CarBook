@@ -1,20 +1,53 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
+using CarBook.Dto.BlogDtos;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
 
 namespace CarBook.WebUI.Areas.Admin.Controllers
 {
+    [Area("Admin")]
+    [Route("Admin/AdminBlog")]
     public class AdminBlogController : Controller
     {
-        // GET: /<controller>/
-        public IActionResult Index()
+
+        private readonly IHttpClientFactory _httpClientFactory;
+
+        public AdminBlogController(IHttpClientFactory httpClientFactory)
         {
+            _httpClientFactory = httpClientFactory;
+        }
+
+        [Route("Index")]
+        public async Task<IActionResult> Index()
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync("https://localhost:7044/api/Blogs/GetAllBlogsWithAuthorList");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<ResultAllBlogsWithAuthorDto>>(jsonData);
+                return View(values);
+            }
             return View();
         }
-    }
+
+        [Route("RemoveBlog/{id}")]
+        public async Task<IActionResult> RemoveBlog(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.DeleteAsync($"https://localhost:7044/api/Blogs?id=" + id);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index", "AdminBlog", new { area = "Admin" });
+            }
+
+            return View();
+        }
 }
 
