@@ -21,6 +21,7 @@
     <None Remove="AuthorDtos\" />
     <None Remove="BrandDtos\" />
     <None Remove="FeatureDtos\" />
+    <None Remove="CommentDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AboutDtos\" />
@@ -37,5 +38,6 @@
     <Folder Include="AuthorDtos\" />
     <Folder Include="BrandDtos\" />
     <Folder Include="FeatureDtos\" />
+    <Folder Include="CommentDtos\" />
   </ItemGroup>
 </Project>
