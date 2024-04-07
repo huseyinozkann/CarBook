@@ -1,34 +1,29 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminBlog/Index.cshtml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminCommentController.cs">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminBlogController.cs" Line="26" Column="25" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminBannerController.cs" Line="13" Column="4" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminBlog/Index.cshtml" Line="65" Column="7" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminBanner/Index.cshtml" Line="49" Column="30" />
+      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminCommentController.cs" Line="41" Column="1" />
+      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminBlogController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarBook">
-            <Node name="Core" expanded="True" />
-            <Node name="Frontends">
+          <Node name="CarBook" expanded="True">
+            <Node name="Frontends" expanded="True">
               <Node name="CarBook.Dto" expanded="True" />
               <Node name="CarBook.WebUI">
-                <Node name="Areas">
-                  <Node name="Admin">
-                    <Node name="Views">
-                      <Node name="AdminBanner" expanded="True" />
-                      <Node name="AdminBlog">
-                        <Node name="Index.cshtml" selected="True" />
-                      </Node>
+                <Node name="Areas" expanded="True">
+                  <Node name="Admin" expanded="True">
+                    <Node name="Controllers" expanded="True">
+                      <Node name="AdminCommentController.cs" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="Views" expanded="True">
+                  <Node name="Shared" expanded="True">
+                    <Node name="Components" expanded="True">
+                      <Node name="_DefaultCoverUILayoutComponentPartial" expanded="True" />
                     </Node>
                   </Node>
                 </Node>
@@ -39,4 +34,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
