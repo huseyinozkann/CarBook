@@ -67,6 +67,7 @@
     <None Remove="Areas\Admin\Views\AdminCategory\" />
     <None Remove="Areas\Admin\Views\AdminBlog\" />
     <None Remove="Areas\Admin\Views\AdminComment\" />
+    <None Remove="Areas\Admin\Views\AdminPricing\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -124,6 +125,7 @@
     <Folder Include="Areas\Admin\Views\AdminCategory\" />
     <Folder Include="Areas\Admin\Views\AdminBlog\" />
     <Folder Include="Areas\Admin\Views\AdminComment\" />
+    <Folder Include="Areas\Admin\Views\AdminPricing\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
