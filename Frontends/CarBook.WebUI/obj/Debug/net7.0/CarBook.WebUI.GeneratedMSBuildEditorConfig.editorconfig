@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarBook.WebUI
 build_property.RootNamespace = CarBook.WebUI
 build_property.ProjectDir = /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -70,6 +72,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminComment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Db21tZW50L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminPricing/CreatePricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5QcmljaW5nL0NyZWF0ZVByaWNpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminPricing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5QcmljaW5nL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminPricing/UpdatePricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5QcmljaW5nL1VwZGF0ZVByaWNpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/_ViewImports.cshtml]
