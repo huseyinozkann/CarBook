@@ -23,6 +23,7 @@
     <None Remove="FeatureDtos\" />
     <None Remove="CommentDtos\" />
     <None Remove="PricingDtos\" />
+    <None Remove="LocationDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AboutDtos\" />
@@ -41,5 +42,6 @@
     <Folder Include="FeatureDtos\" />
     <Folder Include="CommentDtos\" />
     <Folder Include="PricingDtos\" />
+    <Folder Include="LocationDtos\" />
   </ItemGroup>
 </Project>

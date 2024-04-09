@@ -1,48 +1,19 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminPricing/UpdatePricing.cshtml">
-    <Files>
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminPricingController.cs" Line="75" Column="18" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminPricing/Index.cshtml" Line="42" Column="41" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminPricing/CreatePricing.cshtml" Line="1" Column="1" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminPricing/UpdatePricing.cshtml" Line="21" Column="73" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarBook" expanded="True">
-            <Node name="Frontends" expanded="True">
-              <Node name="CarBook.WebUI">
-                <Node name="Areas" expanded="True">
-                  <Node name="Admin" expanded="True">
-                    <Node name="Controllers" expanded="True" />
-                    <Node name="Views" expanded="True">
-                      <Node name="AdminBanner" expanded="True" />
-                      <Node name="AdminPricing" expanded="True">
-                        <Node name="UpdatePricing.cshtml" selected="True" />
-                      </Node>
-                    </Node>
-                  </Node>
-                </Node>
-                <Node name="Views" expanded="True">
-                  <Node name="Shared" expanded="True">
-                    <Node name="Components" expanded="True">
-                      <Node name="_DefaultCoverUILayoutComponentPartial" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="CarBook" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
