@@ -73,6 +73,7 @@
     <None Remove="Areas\Admin\Views\AdminLocation\" />
     <None Remove="Areas\Admin\Views\AdminService\" />
     <None Remove="Areas\Admin\Views\AdminSocialMedia\" />
+    <None Remove="Areas\Admin\Views\AdminTestimonial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -136,6 +137,7 @@
     <Folder Include="Areas\Admin\Views\AdminLocation\" />
     <Folder Include="Areas\Admin\Views\AdminService\" />
     <Folder Include="Areas\Admin\Views\AdminSocialMedia\" />
+    <Folder Include="Areas\Admin\Views\AdminTestimonial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
