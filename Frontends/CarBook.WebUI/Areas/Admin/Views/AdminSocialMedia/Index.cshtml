@@ -1,9 +1,9 @@
-﻿@model List<ResultLocationDto>
+﻿@model List<ResultSocialMediaDto>
 
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/AdminLayout/Index.cshtml";
-    int count = 0;
+    int count = 0; 
 }
 
 <div class="page-content">
@@ -12,9 +12,9 @@
             <div class="col-xl-12">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title">Lokasyon Bilgileri Alanı</h4>
+                        <h4 class="card-title">Sosyal Medya Hesap Linkleri Yönetimi</h4>
                         <p class="card-subtitle mb-4">
-                            Ana sayfa ve araç kiralama sayfasında yer alan araçların alınış ve bırakılış noktalarını temsil eden yer lokasyon kısmıdır. Aşağıda araç kiralama noktalarına ait lokasyon bilgilerinin isimleri yer almaktadır. Sağ tarafta yer alan buton üzerinden bu lokasyonun harita bilgisine erişim sağlayabilirsiniz.
+                            Kullandığınız sosyal medya hesaplarına ait bilgileri yönetebileceğiniz sayfadır.
                         </p>
                         <div class="table-responsive">
                             @if (Model.Count > 0)
@@ -23,10 +23,10 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>Lokasyon</th>
+                                            <th>Başlık</th>
                                             <th>Sil</th>
                                             <th>Güncelle</th>
-                                            <th>Konumu Aç</th>
+                                            <th>Aç</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -35,10 +35,10 @@
                                             count++;
                                             <tr>
                                                 <td>@count</td>
-                                                <td>@item.name</td>
-                                                <td><a href="/Admin/AdminLocation/RemoveLocation/@item.LocationID" class="btn btn-outline-danger">Sil</a></td>
-                                                <td><a href="/Admin/AdminLocation/UpdateLocation/@item.LocationID" class="btn btn-outline-success">Güncelle</a></td>
-                                                <td><a href="/Admin/AdminLocation/LocationDEtail/@item.LocationID" class="btn btn-outline-dark">Konumu Aç</a></td>
+                                                <td>@item.Name</td>
+                                                <td><a href="/Admin/AdminSocialMedia/RemoveSocialMedia/@item.SocialMediaID" class="btn btn-outline-danger">Sil</a></td>
+                                                <td><a href="/Admin/AdminSocialMedia/UpdateSocialMedia/@item.SocialMediaID" class="btn btn-outline-success">Güncelle</a></td>
+                                                <td><a href="/Admin/AdminSocialMedia/UpdateSocialMedia/@item.SocialMediaID" class="btn btn-outline-dark">Aç</a></td>
                                             </tr>
                                         }
                                     </tbody>
@@ -47,10 +47,10 @@
                             else
                             {
                                 <div class="alert alert-info">
-                                    <p class="mb-0">Henüz hiçbir Konum bilgisi eklenmemiş!</p>
+                                    <p class="mb-0">Henüz hiçbir Sosyal Medya adresi eklenmemiş!</p>
                                 </div>
                             }
-                            <a href="/Admin/AdminLocation/CreateLocation" class="btn btn-rounded btn-outline-primary">Yeni Lokasyon Girişi</a>
+                            <a href="/Admin/AdminSocialMedia/CreateSocialMedia" class="btn btn-rounded btn-outline-primary">Yeni Sosyal Medya Girişi</a>
                         </div>
                     </div>
                 </div>
