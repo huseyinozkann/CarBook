@@ -92,6 +92,9 @@
     <None Remove="Features\Mediator\Handlers\TagCloudHandlers\" />
     <None Remove="Interfaces\TagCloudInterfaces\" />
     <None Remove="Features\RepositoryPattern\" />
+    <None Remove="Features\Mediator\Results\StatisticsResults\" />
+    <None Remove="Features\Mediator\Queries\StatisticsQueries\" />
+    <None Remove="Features\Mediator\Handlers\StatisticsHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -179,6 +182,9 @@
     <Folder Include="Features\Mediator\Handlers\TagCloudHandlers\" />
     <Folder Include="Interfaces\TagCloudInterfaces\" />
     <Folder Include="Features\RepositoryPattern\" />
+    <Folder Include="Features\Mediator\Results\StatisticsResults\" />
+    <Folder Include="Features\Mediator\Queries\StatisticsQueries\" />
+    <Folder Include="Features\Mediator\Handlers\StatisticsHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
