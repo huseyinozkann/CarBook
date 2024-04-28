@@ -1,29 +1,18 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminTestimonial/CreateTestimonial.cshtml">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminTestimonialController.cs" Line="16" Column="57" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminSocialMediaController.cs" Line="14" Column="5" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminTestimonial/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminTestimonial/Index.cshtml" />
       <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminTestimonial/CreateTestimonial.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarBook">
+          <Node name="CarBook" expanded="True">
             <Node name="Core" expanded="True" />
-            <Node name="Frontends">
-              <Node name="CarBook.Dto" expanded="True" />
+            <Node name="Frontends" expanded="True">
               <Node name="CarBook.WebUI">
                 <Node name="Areas" expanded="True">
                   <Node name="Admin" expanded="True">
-                    <Node name="Controllers" expanded="True" />
                     <Node name="Views" expanded="True">
                       <Node name="AdminTestimonial" expanded="True">
                         <Node name="CreateTestimonial.cshtml" selected="True" />
@@ -38,5 +27,12 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
