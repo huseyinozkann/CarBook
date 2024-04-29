@@ -1,36 +1,38 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Core/CarBook.Application/Interfaces/StatisticsInterfaces/IStatisticsRepository.cs">
     <Files>
-      <File FileName="Core/CarBook.Application/Interfaces/StatisticsInterfaces/IStatisticsRepository.cs" Line="12" Column="44" />
+      <File FileName="Infrastructure/CarBook.Persistence/Repositories/StatisticsRepositories/StatisticsRepository.cs" Line="49" Column="10" />
+      <File FileName="Core/CarBook.Application/Interfaces/StatisticsInterfaces/IStatisticsRepository.cs" Line="17" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarBook" expanded="True">
+          <Node name="CarBook">
             <Node name="Core" expanded="True">
               <Node name="CarBook.Application" expanded="True">
                 <Node name="Features" expanded="True" />
                 <Node name="Interfaces" expanded="True">
-                  <Node name="StatisticsInterfaces" expanded="True" />
+                  <Node name="StatisticsInterfaces" expanded="True">
+                    <Node name="IStatisticsRepository.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
             <Node name="Frontends" expanded="True">
-              <Node name="CarBook.WebUI" expanded="True">
-                <Node name="Areas" expanded="True">
-                  <Node name="Admin" expanded="True">
-                    <Node name="Controllers" expanded="True" />
-                    <Node name="Views" expanded="True">
-                      <Node name="AdminStatistics" expanded="True" />
-                    </Node>
-                  </Node>
+              <Node name="CarBook.WebUI" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="CarBook.Persistence" expanded="True">
+                <Node name="Repositories" expanded="True">
+                  <Node name="StatisticsRepositories" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -39,5 +41,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
