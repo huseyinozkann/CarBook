@@ -95,6 +95,7 @@
     <None Remove="Features\Mediator\Results\StatisticsResults\" />
     <None Remove="Features\Mediator\Queries\StatisticsQueries\" />
     <None Remove="Features\Mediator\Handlers\StatisticsHandlers\" />
+    <None Remove="Interfaces\StatisticsInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -185,6 +186,7 @@
     <Folder Include="Features\Mediator\Results\StatisticsResults\" />
     <Folder Include="Features\Mediator\Queries\StatisticsQueries\" />
     <Folder Include="Features\Mediator\Handlers\StatisticsHandlers\" />
+    <Folder Include="Interfaces\StatisticsInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
