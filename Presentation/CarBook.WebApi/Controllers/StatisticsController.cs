@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using MediatR;
 using CarBook.Application.Features.Mediator.Queries.StatisticsQueries;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
 
 namespace CarBook.WebApi.Controllers
 {
