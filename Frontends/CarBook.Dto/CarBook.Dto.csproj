@@ -25,6 +25,7 @@
     <None Remove="PricingDtos\" />
     <None Remove="LocationDtos\" />
     <None Remove="SocialMediaDtos\" />
+    <None Remove="StatisticsDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AboutDtos\" />
@@ -45,5 +46,6 @@
     <Folder Include="PricingDtos\" />
     <Folder Include="LocationDtos\" />
     <Folder Include="SocialMediaDtos\" />
+    <Folder Include="StatisticsDtos\" />
   </ItemGroup>
 </Project>
