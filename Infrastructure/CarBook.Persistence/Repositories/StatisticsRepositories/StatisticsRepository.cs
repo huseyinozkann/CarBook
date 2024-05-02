@@ -70,7 +70,7 @@ namespace CarBook.Persistence.Repositories.StatisticsRepositories
             int carId = _context.CarPricings.Where(x => x.Amount == amount).Select(y => y.CarID).FirstOrDefault();
             string brandModel = _context.Cars.Where(x => x.CarID == carId).Include(y => y.Brand).Select(z => z.Brand.Name + " " + z.Model).FirstOrDefault();
             return brandModel;
-        }
+        } 
 
         public string GetCarBrandAndModelByRentPriceDailyMin()
         {
