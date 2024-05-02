@@ -49,7 +49,14 @@ namespace CarBook.Persistence.Repositories.StatisticsRepositories
 
         public string GetBlogTitleByMaxBlogComment()
         {
-            throw new NotImplementedException();
+            var values = _context.Comments.GroupBy(x => x.BlogID).
+               Select(y => new
+               {
+                   BlogID = y.Key,
+                   Count = y.Count()
+               }).OrderByDescending(z => z.Count).Take(1).FirstOrDefault();
+            string blogName = _context.Blogs.Where(x => x.BlogID == values.BlogID).Select(y => y.Title).FirstOrDefault();
+            return blogName;
         }
 
         public int GetBrandCount()
@@ -60,7 +67,14 @@ namespace CarBook.Persistence.Repositories.StatisticsRepositories
 
         public string GetBrandNameByMaxCar()
         {
-            throw new NotImplementedException();
+            var values = _context.Cars.GroupBy(x => x.BrandID).
+                Select(y => new
+                {
+                    BrandID = y.Key,
+                    Count = y.Count()
+                }).OrderByDescending(z => z.Count).Take(1).FirstOrDefault();
+            string brandName = _context.Brands.Where(x => x.BrandID == values.BrandID).Select(y => y.Name).FirstOrDefault();
+            return brandName;
         }
 
         public string GetCarBrandAndModelByRentPriceDailyMax()
