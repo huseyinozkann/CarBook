@@ -6,6 +6,9 @@ namespace CarBook.Domain.Entities
 		public int LocationID { get; set; }
 
 		public string name { get; set; }
-	}
+
+        public List<RentACar> RentACars { get; set; }
+
+    }
 }
 
