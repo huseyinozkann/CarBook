@@ -75,6 +75,8 @@
     <None Remove="Areas\Admin\Views\AdminSocialMedia\" />
     <None Remove="Areas\Admin\Views\AdminTestimonial\" />
     <None Remove="Areas\Admin\Views\AdminStatistics\" />
+    <None Remove="ViewComponents\RentACarFilterComponents\" />
+    <None Remove="Views\Shared\Components\_RentACarFilterComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -140,6 +142,8 @@
     <Folder Include="Areas\Admin\Views\AdminSocialMedia\" />
     <Folder Include="Areas\Admin\Views\AdminTestimonial\" />
     <Folder Include="Areas\Admin\Views\AdminStatistics\" />
+    <Folder Include="ViewComponents\RentACarFilterComponents\" />
+    <Folder Include="Views\Shared\Components\_RentACarFilterComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">

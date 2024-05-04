@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarBook.WebUI
 build_property.RootNamespace = CarBook.WebUI
 build_property.ProjectDir = /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -334,6 +336,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Views/Shared/Components/_NavbarUILayoutComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX05hdmJhclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Views/Shared/Components/_RentACarFilterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1JlbnRBQ2FyRmlsdGVyQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Views/Shared/Components/_ScriptUILayoutComponentPartial/Default.cshtml]
