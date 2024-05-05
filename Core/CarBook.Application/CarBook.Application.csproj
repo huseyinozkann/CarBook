@@ -97,6 +97,9 @@
     <None Remove="Features\Mediator\Handlers\StatisticsHandlers\" />
     <None Remove="Interfaces\StatisticsInterfaces\" />
     <None Remove="Interfaces\RentACarInterfaces\" />
+    <None Remove="Features\Mediator\Results\RentACarResults\" />
+    <None Remove="Features\Mediator\Queries\RentACarQueries\" />
+    <None Remove="Features\Mediator\Handlers\RentACarHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -189,6 +192,9 @@
     <Folder Include="Features\Mediator\Handlers\StatisticsHandlers\" />
     <Folder Include="Interfaces\StatisticsInterfaces\" />
     <Folder Include="Interfaces\RentACarInterfaces\" />
+    <Folder Include="Features\Mediator\Results\RentACarResults\" />
+    <Folder Include="Features\Mediator\Queries\RentACarQueries\" />
+    <Folder Include="Features\Mediator\Handlers\RentACarHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
