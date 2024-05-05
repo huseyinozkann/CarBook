@@ -5,7 +5,7 @@ namespace CarBook.Application.Interfaces.RentACarInterfaces
 {
 	public interface IRentACarRepository
 	{
-		List<RentACar> GetByFilterAsync(Expression<Func<RentACar, bool>> filter);
+		Task<List<RentACar>> GetByFilterAsync(Expression<Func<RentACar, bool>> filter);
 	}
 }
 
