@@ -23,7 +23,7 @@ namespace CarBook.WebUI.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index(string p)
+        public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:7044/api/Locations");
@@ -38,6 +38,17 @@ namespace CarBook.WebUI.Controllers
                                             }).ToList();
             ViewBag.v = values2;
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Index(string book_pick_date, string book_off_date, string time_pick, string time_off, string locationID)
+        {
+            TempData["bookpickdate"] = book_pick_date;
+            TempData["bookoffdate"] = book_off_date;
+            TempData["timepick"] = time_pick;
+            TempData["timeoff"] = time_off;
+            TempData["locationID"] = locationID;
+            return RedirectToAction("Index", "RentACarList");
         }
     }
 }
