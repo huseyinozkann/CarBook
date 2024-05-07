@@ -1,18 +1,16 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/RentACarList/Index.cshtml">
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Default/Index.cshtml">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Views/Default/Index.cshtml" Line="37" Column="8" />
-      <File FileName="Frontends/CarBook.WebUI/Views/RentACarList/Index.cshtml" Line="6" Column="15" />
-      <File FileName="Frontends/CarBook.WebUI/Controllers/RentACarListController.cs" Line="17" Column="30" />
-      <File FileName="Frontends/CarBook.WebUI/ViewComponents/RentACarFilterComponents/_RentACarFilterComponentPartial.cs" Line="10" Column="26" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_RentACarFilterComponentPartial/Default.cshtml" Line="1" Column="1" />
+      <File FileName="Frontends/CarBook.WebUI/Views/RentACarList/Index.cshtml" Line="11" Column="34" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Default/Index.cshtml" Line="35" Column="21" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_RentACarFilterComponentPartial/Default.cshtml" Line="10" Column="50" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/DefaultController.cs" Line="54" Column="2" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/RentACarListController.cs" Line="29" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,13 +20,14 @@
               <Node name="CarBook.Application" expanded="True" />
             </Node>
             <Node name="Frontends" expanded="True">
-              <Node name="CarBook.WebUI">
+              <Node name="CarBook.WebUI" expanded="True">
                 <Node name="Controllers" expanded="True" />
+                <Node name="ViewComponents" expanded="True">
+                  <Node name="RentACarFilterComponents" expanded="True" />
+                </Node>
                 <Node name="Views" expanded="True">
                   <Node name="Default" expanded="True" />
-                  <Node name="RentACarList" expanded="True">
-                    <Node name="Index.cshtml" selected="True" />
-                  </Node>
+                  <Node name="RentACarList" expanded="True" />
                   <Node name="Shared" expanded="True">
                     <Node name="Components" expanded="True">
                       <Node name="_RentACarFilterComponentPartial" expanded="True" />
@@ -42,5 +41,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
