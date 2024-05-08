@@ -23,7 +23,7 @@
                                 <h2>Şimdi Aracınızı Kiralayın</h2>
                                 <div class="form-group">
                                     <label for="" class="label">Alınacak Lokasyon</label>
-                                    @Html.DropDownListFor(x=>x.LocationID,(List<SelectListItem>)ViewBag.v,new { @class = "form-control", name = "locationID"})
+                                    @Html.DropDownListFor(x => x.LocationID, (List<SelectListItem>)ViewBag.v, new { @class = "form-control", name = "locationID" })
                                 </div>
 
                                 <div class="d-flex">
@@ -37,12 +37,12 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="" class="label">Alış Saati</label>
-                                    <input type="text" class="form-control" name="time_pick" id="time_pick" placeholder="Time">
+                                    <label for="time_pick" class="label">Alış Saati</label>
+                                    <input type="time" class="form-control" name="time_pick" id="time_pick" placeholder="Saat Seçiniz">
                                 </div>
                                 <div class="form-group">
-                                    <label for="" class="label">İade Saati</label>
-                                    <input type="text" class="form-control" name="time_off" id="time_off" placeholder="Time">
+                                    <label for="time_off" class="label">İade Saati</label>
+                                    <input type="time" class="form-control" name="time_off" id="time_off" placeholder="Saat Seçiniz">
                                 </div>
                                 <div class="form-group">
                                     <button class="btn btn-secondary py-3 px-4">Uygun Araçları Listele</button>
