@@ -22,22 +22,17 @@ namespace CarBook.WebUI.Controllers
 
         public async Task<IActionResult> Index(int id)
         {
-            var bookpickdate = TempData["bookpickdate"];
-            var bookoffdate = TempData["bookoffdate"];
-            var timepick = TempData["timepick"];
-            var timeoff = TempData["timeoff"];
+         
             var locationID = TempData["locationID"];
 
-            ViewBag.bookpickdate = bookpickdate;
-            ViewBag.bookoffdate = bookoffdate;
-            ViewBag.timepick = timepick;
-            ViewBag.timeoff = timeoff;
+            
             ViewBag.locationID = locationID;
 
             //filterRentACarDto.locationID = int.Parse(locationID.ToString());
             //filterRentACarDto.available = true;
 
             id = int.Parse(locationID.ToString());
+
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync($"https://localhost:7044/api/RentACars?locationID={id}&available=true");
             if (responseMessage.IsSuccessStatusCode)

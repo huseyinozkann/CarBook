@@ -1,38 +1,34 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Default/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Controllers/RentACarListController.cs">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Views/RentACarList/Index.cshtml" Line="11" Column="34" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Default/Index.cshtml" Line="35" Column="21" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_RentACarFilterComponentPartial/Default.cshtml" Line="10" Column="50" />
-      <File FileName="Frontends/CarBook.WebUI/Controllers/DefaultController.cs" Line="54" Column="2" />
-      <File FileName="Frontends/CarBook.WebUI/Controllers/RentACarListController.cs" Line="29" Column="6" />
+      <File FileName="Frontends/CarBook.WebUI/Views/RentACarList/Index.cshtml" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Default/Index.cshtml" Line="44" Column="83" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_RentACarFilterComponentPartial/Default.cshtml" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/DefaultController.cs" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/RentACarListController.cs" Line="37" Column="56" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarBook">
             <Node name="Core" expanded="True">
-              <Node name="CarBook.Application" expanded="True" />
-            </Node>
-            <Node name="Frontends" expanded="True">
-              <Node name="CarBook.WebUI" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="ViewComponents" expanded="True">
-                  <Node name="RentACarFilterComponents" expanded="True" />
-                </Node>
-                <Node name="Views" expanded="True">
-                  <Node name="Default" expanded="True" />
-                  <Node name="RentACarList" expanded="True" />
-                  <Node name="Shared" expanded="True">
-                    <Node name="Components" expanded="True">
-                      <Node name="_RentACarFilterComponentPartial" expanded="True" />
+              <Node name="CarBook.Application" expanded="True">
+                <Node name="Features" expanded="True">
+                  <Node name="Mediator" expanded="True">
+                    <Node name="Handlers" expanded="True">
+                      <Node name="RentACarHandlers" expanded="True" />
+                    </Node>
+                    <Node name="Results" expanded="True">
+                      <Node name="RentACarResults" expanded="True" />
                     </Node>
                   </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Frontends">
+              <Node name="CarBook.WebUI">
+                <Node name="Controllers">
+                  <Node name="RentACarListController.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -41,7 +37,12 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
 </Properties>
