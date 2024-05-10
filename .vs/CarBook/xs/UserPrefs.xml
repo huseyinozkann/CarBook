@@ -1,24 +1,26 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Reservation/Index.cshtml">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Controllers/ReservationController.cs" Line="15" Column="10" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Reservation/Index.cshtml" Line="15" Column="33" />
-      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/contact.html" Line="208" Column="63" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/ReservationController.cs" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Reservation/Index.cshtml" Line="34" Column="33" />
+      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/contact.html" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarBook" expanded="True">
-            <Node name="Frontends" expanded="True">
-              <Node name="CarBook.Dto" expanded="True">
-                <Node name="RentACarDtos" expanded="True" />
+          <Node name="CarBook">
+            <Node name="Core" expanded="True">
+              <Node name="CarBook.Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
               </Node>
-              <Node name="CarBook.WebUI" expanded="True">
+            </Node>
+            <Node name="Frontends">
+              <Node name="CarBook.WebUI">
                 <Node name="Controllers" expanded="True" />
-                <Node name="Views" expanded="True">
-                  <Node name="Reservation" expanded="True">
+                <Node name="Views">
+                  <Node name="Reservation">
                     <Node name="Index.cshtml" selected="True" />
                   </Node>
                 </Node>
@@ -27,15 +29,20 @@
                 </Node>
               </Node>
             </Node>
+            <Node name="Infrastructure">
+              <Node name="CarBook.Persistence">
+                <Node name="Context" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
