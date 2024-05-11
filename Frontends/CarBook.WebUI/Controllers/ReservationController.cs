@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using CarBook.Dto.LocationDtos;
+using CarBook.Dto.ReservationDtos;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -43,6 +44,23 @@ namespace CarBook.WebUI.Controllers
 
             return View();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Index(CreateReservationDto createReservationDto)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createReservationDto);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("https://localhost:7044/api/Reservations", stringContent);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                TempData["SuccessMessage"] = "Rezervasyon başarıyla kaydedildi.";
+                return RedirectToAction("Index", "Default");
+            }
+            TempData["ErrorMessage"] = "Rezervasyon kaydedilirken bir hata oluştu. Lütfen tekrar deneyin.";
+            return View();
+        }
+
     }
 }
 
