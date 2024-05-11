@@ -27,6 +27,7 @@
     <None Remove="SocialMediaDtos\" />
     <None Remove="StatisticsDtos\" />
     <None Remove="RentACarDtos\" />
+    <None Remove="ReservationDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AboutDtos\" />
@@ -49,5 +50,6 @@
     <Folder Include="SocialMediaDtos\" />
     <Folder Include="StatisticsDtos\" />
     <Folder Include="RentACarDtos\" />
+    <Folder Include="ReservationDtos\" />
   </ItemGroup>
 </Project>
