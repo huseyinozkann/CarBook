@@ -102,6 +102,7 @@
     <None Remove="Features\Mediator\Handlers\RentACarHandlers\" />
     <None Remove="Features\Mediator\Commands\ReservationCommands\" />
     <None Remove="Features\Mediator\Handlers\ReservationHandlers\" />
+    <None Remove="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -199,6 +200,7 @@
     <Folder Include="Features\Mediator\Handlers\RentACarHandlers\" />
     <Folder Include="Features\Mediator\Commands\ReservationCommands\" />
     <Folder Include="Features\Mediator\Handlers\ReservationHandlers\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
