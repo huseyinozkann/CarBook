@@ -1,29 +1,48 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Reservation/Index.cshtml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Controllers/ReservationController.cs">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Controllers/ReservationController.cs" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Reservation/Index.cshtml" Line="20" Column="82" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/ReservationController.cs" Line="61" Column="61" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Reservation/Index.cshtml" Line="3" Column="33" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Car/Index.cshtml" Line="1" Column="26" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Default/Index.cshtml" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_DefaultLast5CarsWithBrandsComponentPartial/Default.cshtml" />
+      <File FileName="Frontends/CarBook.Dto/CarPricingDtos/ResultCarPricingWithCarDto.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarBook" expanded="True">
             <Node name="Core" expanded="True">
-              <Node name="CarBook.Application" expanded="True">
+              <Node name="CarBook.Application">
                 <Node name="Features" expanded="True">
-                  <Node name="Mediator" expanded="True" />
+                  <Node name="Mediator" expanded="True">
+                    <Node name="Handlers" expanded="True">
+                      <Node name="CarPricingHandlers" expanded="True" />
+                    </Node>
+                    <Node name="Results" expanded="True">
+                      <Node name="CarPricingResults" expanded="True" />
+                    </Node>
+                  </Node>
                 </Node>
               </Node>
             </Node>
             <Node name="Frontends" expanded="True">
+              <Node name="CarBook.Dto">
+                <Node name="ReservationDtos" expanded="True" />
+              </Node>
               <Node name="CarBook.WebUI">
-                <Node name="Controllers" expanded="True" />
+                <Node name="Controllers" expanded="True">
+                  <Node name="ReservationController.cs" selected="True" />
+                </Node>
                 <Node name="Views" expanded="True">
+                  <Node name="Car" expanded="True" />
                   <Node name="Reservation" expanded="True" />
                 </Node>
               </Node>
@@ -33,7 +52,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
 </Properties>
