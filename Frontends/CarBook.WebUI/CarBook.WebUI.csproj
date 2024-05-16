@@ -79,6 +79,7 @@
     <None Remove="Views\Shared\Components\_RentACarFilterComponentPartial\" />
     <None Remove="Views\RentACarList\" />
     <None Remove="Views\Reservation\" />
+    <None Remove="Views\CarPricing\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -148,6 +149,7 @@
     <Folder Include="Views\Shared\Components\_RentACarFilterComponentPartial\" />
     <Folder Include="Views\RentACarList\" />
     <Folder Include="Views\Reservation\" />
+    <Folder Include="Views\CarPricing\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">

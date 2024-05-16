@@ -2,19 +2,39 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/CarBook.Persistence/Repositories/CarPricingRepositories/CarPricingRepository.cs">
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/CarBook.WebApi/Controllers/CarPricingsController.cs">
     <Files>
       <File FileName="Presentation/CarBook.WebApi/Controllers/CarPricingsController.cs" Line="24" Column="18" />
-      <File FileName="Infrastructure/CarBook.Persistence/Repositories/CarPricingRepositories/CarPricingRepository.cs" Line="62" Column="2" />
+      <File FileName="Infrastructure/CarBook.Persistence/Repositories/CarPricingRepositories/CarPricingRepository.cs" Line="38" Column="61" />
+      <File FileName="Frontends/CarBook.WebUI/Controllers/CarPricingController.cs" Line="22" Column="35" />
+      <File FileName="Frontends/CarBook.Dto/CarPricingDtos/ResultCarPricingListWithModelDto.cs" Line="13" Column="1" />
+      <File FileName="Frontends/CarBook.WebUI/Views/CarPricing/Index.cshtml" Line="21" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarBook">
+            <Node name="Core" expanded="True">
+              <Node name="CarBook.Application" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+            </Node>
             <Node name="Frontends" expanded="True">
-              <Node name="CarBook.WebUI" expanded="True" selected="True">
-                <Node name="Controllers" expanded="True" />
+              <Node name="CarBook.Dto" expanded="True">
+                <Node name="CarPricingDtos" expanded="True" />
+              </Node>
+              <Node name="CarBook.WebUI">
+                <Node name="Views" expanded="True">
+                  <Node name="CarPricing" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Presentation">
+              <Node name="CarBook.WebApi">
+                <Node name="Controllers" expanded="True">
+                  <Node name="CarPricingsController.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -22,8 +42,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

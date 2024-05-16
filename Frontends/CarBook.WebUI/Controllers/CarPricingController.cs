@@ -19,10 +19,10 @@ namespace CarBook.WebUI.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            ViewBag.v1 = "Paketler";
+            ViewBag.v1 = "Fiyatlar";
             ViewBag.v2 = "Araç Fiyat Paketleri";
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("https://localhost:7060/api/CarPricings/GetCarPricingWithTimePeriodList");
+            var responseMessage = await client.GetAsync("https://localhost:7044/api/CarPricings/GetCarPricingWithTimePeriodList");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
