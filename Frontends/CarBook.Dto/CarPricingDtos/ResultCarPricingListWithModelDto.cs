@@ -3,6 +3,8 @@ namespace CarBook.Dto.CarPricingDtos
 {
 	public class ResultCarPricingListWithModelDto
 	{
+        public int CarID { get; set; }
+
         public string model { get; set; }
 
         public decimal dailyAmount { get; set; }

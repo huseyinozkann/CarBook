@@ -15,6 +15,8 @@ namespace CarBook.Application.ViewModels
         public string CoverImageUrl { get; set; }
 
         public string Brand { get; set; }
+
+        public int CarID { get; set; }
     }
 }
 
