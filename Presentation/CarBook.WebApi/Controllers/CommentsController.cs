@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CarBook.Application.Features.RepositoryPattern;
 using CarBook.Domain.Entities;
+using MediatR;
+using CarBook.Application.Features.Mediator.Commands.CommentCommands;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -16,6 +18,7 @@ namespace CarBook.WebApi.Controllers
     public class CommentsController : ControllerBase
     {
         private readonly IGenericRepository<Comment> _commentsRepository;
+        private readonly IMediator _mediator;
 
         public CommentsController(IGenericRepository<Comment> commentsRepository)
         {
@@ -70,6 +73,13 @@ namespace CarBook.WebApi.Controllers
         {
             var value = _commentsRepository.GetCountCommentByBlog(id);
             return Ok(value);
+        }
+
+        [HttpPost("CreateCommentWithMediator")]
+        public async Task<IActionResult> CreateCommentWithMediator(CreateCommentCommand command)
+        {
+            await _mediator.Send(command);
+            return Ok("Yorum başarıyla eklendi");
         }
     }
 }

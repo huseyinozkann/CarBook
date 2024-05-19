@@ -103,6 +103,8 @@
     <None Remove="Features\Mediator\Commands\ReservationCommands\" />
     <None Remove="Features\Mediator\Handlers\ReservationHandlers\" />
     <None Remove="ViewModels\" />
+    <None Remove="Features\Mediator\Commands\CommentCommands\" />
+    <None Remove="Features\Mediator\Handlers\CommentHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -201,6 +203,8 @@
     <Folder Include="Features\Mediator\Commands\ReservationCommands\" />
     <Folder Include="Features\Mediator\Handlers\ReservationHandlers\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Features\Mediator\Commands\CommentCommands\" />
+    <Folder Include="Features\Mediator\Handlers\CommentHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
