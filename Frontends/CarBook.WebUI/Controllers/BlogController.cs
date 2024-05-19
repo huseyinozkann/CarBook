@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using CarBook.Dto.BlogDtos;
 using Microsoft.AspNetCore.Mvc;
@@ -41,10 +42,31 @@ namespace CarBook.WebUI.Controllers
             ViewBag.blogid = id;
 
             var client = _httpClientFactory.CreateClient();
-            var responseMessage2 = await client.GetAsync($"https://localhost:7060/api/Comments/CommentCountByBlog?id=" + id);
+            var responseMessage2 = await client.GetAsync($"https://localhost:7044/api/Comments/CommentCountByBlog?id=" + id);
             var jsonData2 = await responseMessage2.Content.ReadAsStringAsync();
             ViewBag.commentCount = jsonData2;
 
+            return View();
+        }
+
+        [HttpGet]
+        public PartialViewResult AddComment(int id)
+        {
+            ViewBag.blogid = id;
+            return PartialView();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddComment()
+        {
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject();
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("https://localhost:7044/api/Comments/CreateCommentWithMediator", stringContent);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index", "Default");
+            }
             return View();
         }
     }
