@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CarBook.Dto.BlogDtos;
+using CarBook.Dto.CommentDtos;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -57,10 +58,10 @@ namespace CarBook.WebUI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddComment()
+        public async Task<IActionResult> AddComment(CreateCommentDto createCommentDto)
         {
             var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject();
+            var jsonData = JsonConvert.SerializeObject(createCommentDto);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PostAsync("https://localhost:7044/api/Comments/CreateCommentWithMediator", stringContent);
             if (responseMessage.IsSuccessStatusCode)
