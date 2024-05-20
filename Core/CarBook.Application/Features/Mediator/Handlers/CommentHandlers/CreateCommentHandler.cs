@@ -13,6 +13,7 @@ namespace CarBook.Application.Features.Mediator.Handlers.CommentHandlers
         {
             _repository = repository;
         }
+
         public async Task Handle(CreateCommentCommand request, CancellationToken cancellationToken)
         {
             await _repository.CreateAsync(new Comment
@@ -21,6 +22,7 @@ namespace CarBook.Application.Features.Mediator.Handlers.CommentHandlers
                 BlogID = request.BlogID,
                 CreatedDate = DateTime.Parse(DateTime.Now.ToShortDateString()),
                 Name = request.Name,
+                Email = request.Email
             });
         }
     }

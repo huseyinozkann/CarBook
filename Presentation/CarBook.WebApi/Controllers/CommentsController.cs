@@ -20,9 +20,10 @@ namespace CarBook.WebApi.Controllers
         private readonly IGenericRepository<Comment> _commentsRepository;
         private readonly IMediator _mediator;
 
-        public CommentsController(IGenericRepository<Comment> commentsRepository)
+        public CommentsController(IGenericRepository<Comment> commentsRepository, IMediator mediator)
         {
             _commentsRepository = commentsRepository;
+            _mediator = mediator;
         }
 
         [HttpGet]
