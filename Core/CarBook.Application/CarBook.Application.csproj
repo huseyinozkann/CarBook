@@ -106,6 +106,9 @@
     <None Remove="Features\Mediator\Commands\CommentCommands\" />
     <None Remove="Features\Mediator\Handlers\CommentHandlers\" />
     <None Remove="Interfaces\CarFeatureInterfaces\" />
+    <None Remove="Features\Mediator\Results\CarFeatureResults\" />
+    <None Remove="Features\Mediator\Queries\CarFeatureQueries\" />
+    <None Remove="Features\Mediator\Handlers\CarFeatureHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -207,6 +210,9 @@
     <Folder Include="Features\Mediator\Commands\CommentCommands\" />
     <Folder Include="Features\Mediator\Handlers\CommentHandlers\" />
     <Folder Include="Interfaces\CarFeatureInterfaces\" />
+    <Folder Include="Features\Mediator\Results\CarFeatureResults\" />
+    <Folder Include="Features\Mediator\Queries\CarFeatureQueries\" />
+    <Folder Include="Features\Mediator\Handlers\CarFeatureHandlers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
