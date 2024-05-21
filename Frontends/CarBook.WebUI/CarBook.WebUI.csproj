@@ -80,6 +80,7 @@
     <None Remove="Views\RentACarList\" />
     <None Remove="Views\Reservation\" />
     <None Remove="Views\CarPricing\" />
+    <None Remove="Areas\Admin\Views\AdminCarFeatureDetail\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -150,6 +151,7 @@
     <Folder Include="Views\RentACarList\" />
     <Folder Include="Views\Reservation\" />
     <Folder Include="Views\CarPricing\" />
+    <Folder Include="Areas\Admin\Views\AdminCarFeatureDetail\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">

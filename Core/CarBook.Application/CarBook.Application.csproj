@@ -105,6 +105,7 @@
     <None Remove="ViewModels\" />
     <None Remove="Features\Mediator\Commands\CommentCommands\" />
     <None Remove="Features\Mediator\Handlers\CommentHandlers\" />
+    <None Remove="Interfaces\CarFeatureInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -205,6 +206,7 @@
     <Folder Include="ViewModels\" />
     <Folder Include="Features\Mediator\Commands\CommentCommands\" />
     <Folder Include="Features\Mediator\Handlers\CommentHandlers\" />
+    <Folder Include="Interfaces\CarFeatureInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
