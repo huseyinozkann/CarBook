@@ -1,36 +1,63 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/CarBook.Application/Interfaces/CarFeatureInterfaces/ICarFeatureRepository.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminCarFeatureDetail/Index.cshtml">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/Views/AdminCar/Index.cshtml" Line="46" Column="100" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminCarFeatureDetailController.cs" Line="16" Column="42" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminCarFeatureDetail/Index.cshtml" Line="6" Column="29" />
-      <File FileName="Core/CarBook.Application/Interfaces/CarFeatureInterfaces/ICarFeatureRepository.cs" Line="8" Column="59" />
+      <File FileName="Frontends/CarBook.WebUI/Views/AdminCar/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminCarFeatureDetailController.cs" Line="31" Column="92" />
+      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminCarFeatureDetail/Index.cshtml" Line="12" Column="1" />
+      <File FileName="Infrastructure/CarBook.Persistence/Repositories/CarFeatureRepositories/CarFeatureRepository.cs" Line="21" Column="27" />
+      <File FileName="Core/CarBook.Application/Features/Mediator/Handlers/CarFeatureHandlers/GetCarFeatureByCarIdQueryHandler.cs" Line="19" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarBook">
-            <Node name="Core">
+          <Node name="CarBook" expanded="True">
+            <Node name="Core" expanded="True">
               <Node name="CarBook.Application">
+                <Node name="Features" expanded="True">
+                  <Node name="Mediator" expanded="True">
+                    <Node name="Handlers" expanded="True">
+                      <Node name="CarFeatureHandlers" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
                 <Node name="Interfaces" expanded="True">
-                  <Node name="CarFeatureInterfaces" expanded="True">
-                    <Node name="ICarFeatureRepository.cs" selected="True" />
+                  <Node name="CarFeatureInterfaces" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Frontends" expanded="True">
+              <Node name="CarBook.Dto">
+                <Node name="CarFeatureDtos" expanded="True" />
+              </Node>
+              <Node name="CarBook.WebUI">
+                <Node name="Areas" expanded="True">
+                  <Node name="Admin" expanded="True">
+                    <Node name="Controllers" expanded="True" />
+                    <Node name="Views" expanded="True">
+                      <Node name="AdminCarFeatureDetail" expanded="True">
+                        <Node name="Index.cshtml" selected="True" />
+                      </Node>
+                    </Node>
                   </Node>
                 </Node>
               </Node>
             </Node>
-            <Node name="Infrastructure" expanded="True" />
+            <Node name="Presentation">
+              <Node name="CarBook.WebApi">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
 </Properties>

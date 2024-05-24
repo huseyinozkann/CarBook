@@ -21,7 +21,6 @@ namespace CarBook.WebUI.Areas.Admin.Controllers
         }
 
         [Route("Index/{id}")]
-        [HttpGet]
         public async Task<IActionResult> Index(int id)
         {
             var client = _httpClientFactory.CreateClient();
