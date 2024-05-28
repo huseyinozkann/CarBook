@@ -84,6 +84,7 @@
     <None Remove="Areas\Admin\Views\AdminCarFeatureDetail\" />
     <None Remove="Areas\Admin\Views\AdminDashboard\" />
     <None Remove="ViewComponents\DashboardComponents\" />
+    <None Remove="Views\Shared\Components\_AdminDashboardStatisticsComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -157,6 +158,7 @@
     <Folder Include="Areas\Admin\Views\AdminCarFeatureDetail\" />
     <Folder Include="Areas\Admin\Views\AdminDashboard\" />
     <Folder Include="ViewComponents\DashboardComponents\" />
+    <Folder Include="Views\Shared\Components\_AdminDashboardStatisticsComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">

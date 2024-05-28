@@ -2,3 +2,9 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/AdminLayout/Index.cshtml";
 }
+
+<div class="page-content">
+    <div class="container-fluid">
+        @await Component.InvokeAsync("_AdminDashboardStatisticsComponentPartial")
+    </div>
+</div>
