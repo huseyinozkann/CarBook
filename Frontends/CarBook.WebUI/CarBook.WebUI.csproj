@@ -83,6 +83,7 @@
     <None Remove="Views\CarPricing\" />
     <None Remove="Areas\Admin\Views\AdminCarFeatureDetail\" />
     <None Remove="Areas\Admin\Views\AdminDashboard\" />
+    <None Remove="ViewComponents\DashboardComponents\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -155,6 +156,7 @@
     <Folder Include="Views\CarPricing\" />
     <Folder Include="Areas\Admin\Views\AdminCarFeatureDetail\" />
     <Folder Include="Areas\Admin\Views\AdminDashboard\" />
+    <Folder Include="ViewComponents\DashboardComponents\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">

@@ -84,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Db250YWN0L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminDashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5EYXNoYm9hcmQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminFooterAddress/CreateFooterAddress.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Gb290ZXJBZGRyZXNzL0NyZWF0ZUZvb3RlckFkZHJlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
