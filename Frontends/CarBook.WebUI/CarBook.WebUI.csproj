@@ -87,6 +87,7 @@
     <None Remove="Views\Shared\Components\_AdminDashboardStatisticsComponentPartial\" />
     <None Remove="Views\Shared\Components\_AdminDashboardCarPricingListComponentPartial\" />
     <None Remove="Views\Shared\Components\_AdminDashboardBlogListComponentPartial\" />
+    <None Remove="ViewComponents\CarDetailViewComponents\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -163,6 +164,7 @@
     <Folder Include="Views\Shared\Components\_AdminDashboardStatisticsComponentPartial\" />
     <Folder Include="Views\Shared\Components\_AdminDashboardCarPricingListComponentPartial\" />
     <Folder Include="Views\Shared\Components\_AdminDashboardBlogListComponentPartial\" />
+    <Folder Include="ViewComponents\CarDetailViewComponents\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
