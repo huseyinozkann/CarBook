@@ -1,30 +1,29 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminCarFeatureDetailController.cs">
     <Files>
       <File FileName="Frontends/CarBook.WebUI/Views/AdminCar/Index.cshtml" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminCarFeatureDetailController.cs" Line="24" Column="17" />
-      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminCarFeatureDetail/Index.cshtml" Line="25" Column="39" />
-      <File FileName="Infrastructure/CarBook.Persistence/Repositories/CarFeatureRepositories/CarFeatureRepository.cs" Line="21" Column="27" />
-      <File FileName="Core/CarBook.Application/Features/Mediator/Handlers/CarFeatureHandlers/GetCarFeatureByCarIdQueryHandler.cs" />
+      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Controllers/AdminCarFeatureDetailController.cs" Line="1" Column="1" />
+      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminCarFeatureDetail/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Frontends/CarBook.WebUI/Areas/Admin/Views/AdminCarFeatureDetail/CreateFeatureByCarId.cshtml" Line="20" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CarBook">
+          <Node name="CarBook" expanded="True">
             <Node name="Core" expanded="True" />
             <Node name="Frontends" expanded="True">
               <Node name="CarBook.WebUI">
-                <Node name="Areas">
-                  <Node name="Admin">
-                    <Node name="Controllers">
+                <Node name="Areas" expanded="True">
+                  <Node name="Admin" expanded="True">
+                    <Node name="Controllers" expanded="True">
                       <Node name="AdminCarFeatureDetailController.cs" selected="True" />
                     </Node>
                     <Node name="Views" expanded="True">
@@ -32,16 +31,15 @@
                     </Node>
                   </Node>
                 </Node>
+                <Node name="Controllers" expanded="True" />
                 <Node name="Views" expanded="True">
                   <Node name="AdminCar" expanded="True" />
                 </Node>
               </Node>
             </Node>
-            <Node name="Infrastructure" expanded="True">
-              <Node name="CarBook.Persistence" expanded="True">
-                <Node name="Repositories" expanded="True">
-                  <Node name="CarFeatureRepositories" expanded="True" />
-                </Node>
+            <Node name="Presentation">
+              <Node name="CarBook.WebApi">
+                <Node name="Controllers" expanded="True" />
               </Node>
             </Node>
           </Node>

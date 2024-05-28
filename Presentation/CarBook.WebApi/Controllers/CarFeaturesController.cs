@@ -6,6 +6,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using CarBook.Application.Features.Mediator.Queries.CarFeatureQueries;
 using CarBook.Application.Features.Mediator.Commands.CarFeatureCommands;
+using CarBook.Application.Interfaces.CarFeatureInterfaces;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -16,9 +17,12 @@ namespace CarBook.WebApi.Controllers
     public class CarFeaturesController : ControllerBase
     {
         private readonly IMediator _mediator;
-        public CarFeaturesController(IMediator mediator)
+        private readonly ICarFeatureRepository _carFeatureRepository;
+
+        public CarFeaturesController(IMediator mediator, ICarFeatureRepository carFeatureRepository)
         {
             _mediator = mediator;
+            _carFeatureRepository = carFeatureRepository;
         }
 
         [HttpGet]

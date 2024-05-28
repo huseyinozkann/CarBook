@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using CarBook.Dto.CarDtos;
 using CarBook.Dto.BrandDtos;
 
+
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace CarBook.WebUI.Controllers
@@ -61,8 +62,10 @@ namespace CarBook.WebUI.Controllers
             var responseMessage = await client.PostAsync("https://localhost:7044/api/Cars", stringContent);
             if (responseMessage.IsSuccessStatusCode)
             {
+
                 return RedirectToAction("Index");
             }
+
             return View();
         }
 
