@@ -7,7 +7,7 @@ namespace CarBook.WebUI.ViewComponents.CarDetailViewComponents
 {
 	public class _CarDetailCarFeatureByCarIdComponentPartial : ViewComponent
 	{
-		private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IHttpClientFactory _httpClientFactory;
 
         public _CarDetailCarFeatureByCarIdComponentPartial(IHttpClientFactory httpClientFactory)
         {
@@ -25,7 +25,6 @@ namespace CarBook.WebUI.ViewComponents.CarDetailViewComponents
                 var values = JsonConvert.DeserializeObject<List<ResultCarFeatureByCarIdDto>>(jsonData);
                 return View(values);
             }
-
             return View();
         }
     }

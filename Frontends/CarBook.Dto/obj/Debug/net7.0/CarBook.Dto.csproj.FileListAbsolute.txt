@@ -9,4 +9,4 @@
 /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.Dto/obj/Debug/net7.0/refint/CarBook.Dto.dll
 /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.Dto/obj/Debug/net7.0/CarBook.Dto.pdb
 /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.Dto/obj/Debug/net7.0/ref/CarBook.Dto.dll
-/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.Dto/obj/Debug/net7.0/CarBook.Dto.csproj.AssemblyReference.cache
+/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.Dto/obj/Debug/net7.0/CarBook.Dto.sourcelink.json

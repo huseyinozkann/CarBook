@@ -11,7 +11,13 @@
                 <div class="bd-example bd-example-tabs">
 
                     @await Component.InvokeAsync("_CarDetailTabPaneComponentPartial")
-                   
+
+                    <div class="tab-content" id="pills-tabContent">
+
+                        @await Component.InvokeAsync("_CarDetailCarFeatureByCarIdComponentPartial", new { id = ViewBag.carid })
+
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -90,6 +90,7 @@
     <None Remove="ViewComponents\CarDetailViewComponents\" />
     <None Remove="Views\Shared\Components\_CarDetailMainCarFeatureComponentPartial\" />
     <None Remove="Views\Shared\Components\_CarDetailTabPaneComponentPartial\" />
+    <None Remove="Views\Shared\Components\_CarDetailCarFeatureByCarIdComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\UILayout\" />
@@ -169,6 +170,7 @@
     <Folder Include="ViewComponents\CarDetailViewComponents\" />
     <Folder Include="Views\Shared\Components\_CarDetailMainCarFeatureComponentPartial\" />
     <Folder Include="Views\Shared\Components\_CarDetailTabPaneComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_CarDetailCarFeatureByCarIdComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj">
