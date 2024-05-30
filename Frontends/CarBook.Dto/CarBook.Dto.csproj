@@ -29,6 +29,7 @@
     <None Remove="RentACarDtos\" />
     <None Remove="ReservationDtos\" />
     <None Remove="CarFeatureDtos\" />
+    <None Remove="CarDescriptionDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AboutDtos\" />
@@ -53,5 +54,6 @@
     <Folder Include="RentACarDtos\" />
     <Folder Include="ReservationDtos\" />
     <Folder Include="CarFeatureDtos\" />
+    <Folder Include="CarDescriptionDtos\" />
   </ItemGroup>
 </Project>

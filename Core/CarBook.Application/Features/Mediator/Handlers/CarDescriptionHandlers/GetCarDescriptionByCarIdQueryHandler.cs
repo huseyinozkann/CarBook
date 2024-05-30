@@ -1,6 +1,7 @@
 ﻿using System;
 using CarBook.Application.Features.Mediator.Queries.CarDescriptionQueries;
 using CarBook.Application.Features.Mediator.Results.CarDescriptionResults;
+using CarBook.Application.Interfaces.CarDescriptionInterfaces;
 using MediatR;
 
 namespace CarBook.Application.Features.Mediator.Handlers.CarDescriptionHandlers

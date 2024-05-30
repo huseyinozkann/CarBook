@@ -1,41 +1,20 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/ViewComponents/CarDetailViewComponents/_CarDetailCarFeatureByCarIdComponentPartial.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/CarBook.WebApi/Controllers/CarDescriptionsController.cs">
     <Files>
       <File FileName="Frontends/CarBook.WebUI/Controllers/CarController.cs" Line="34" Column="43" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Car/Index.cshtml" Line="1" Column="22" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Car/CarDetail.cshtml" Line="17" Column="128" />
-      <File FileName="Frontends/CarBook.WebUI/ViewComponents/CarDetailViewComponents/_CarDetailCarFeatureByCarIdComponentPartial.cs" Line="15" Column="1" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_CarDetailCarFeatureByCarIdComponentPartial/Default.cshtml" Line="18" Column="173" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Car/Index.cshtml" Line="24" Column="118" />
+      <File FileName="Frontends/CarBook.WebUI/Views/Car/CarDetail.cshtml" Line="18" Column="1" />
+      <File FileName="Presentation/CarBook.WebApi/Controllers/CarDescriptionsController.cs" Line="28" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarBook">
-            <Node name="Frontends">
-              <Node name="CarBook.Dto" expanded="True">
-                <Node name="CarFeatureDtos" expanded="True" />
-              </Node>
-              <Node name="CarBook.WebUI">
-                <Node name="Controllers" expanded="True" />
-                <Node name="ViewComponents">
-                  <Node name="CarDetailViewComponents">
-                    <Node name="_CarDetailCarFeatureByCarIdComponentPartial.cs" selected="True" />
-                  </Node>
-                </Node>
-                <Node name="Views">
-                  <Node name="Shared" expanded="True">
-                    <Node name="Components" expanded="True">
-                      <Node name="_CarDetailCarFeatureByCarIdComponentPartial" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-            <Node name="Infrastructure" expanded="True">
-              <Node name="CarBook.Persistence" expanded="True">
-                <Node name="Repositories" expanded="True">
-                  <Node name="CarRepositories" expanded="True" />
+            <Node name="Presentation" expanded="True">
+              <Node name="CarBook.WebApi">
+                <Node name="Controllers" expanded="True">
+                  <Node name="CarDescriptionsController.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
