@@ -16,8 +16,9 @@
 
                         @await Component.InvokeAsync("_CarDetailCarFeatureByCarIdComponentPartial", new { id = ViewBag.carid })
 
-                    </div>
+                        @await Component.InvokeAsync("_CarDetailCarDescriptionByCarIdComponentPartial", new { id = ViewBag.carid })
 
+                    </div>
                 </div>
             </div>
         </div>

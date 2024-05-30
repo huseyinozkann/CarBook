@@ -8,6 +8,7 @@ namespace CarBook.WebUI.ViewComponents.CarDetailViewComponents
 	public class _CarDetailCarDescriptionByCarIdComponentPartial : ViewComponent
     {
         private readonly IHttpClientFactory _httpClientFactory;
+
         public _CarDetailCarDescriptionByCarIdComponentPartial(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;

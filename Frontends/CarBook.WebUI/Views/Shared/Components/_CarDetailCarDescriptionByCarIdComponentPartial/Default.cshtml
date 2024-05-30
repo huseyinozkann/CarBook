@@ -1,6 +1,12 @@
-﻿
-@model CarBook.Dto.CarDescriptionDtos.ResultCarDescriptionByCarIdDto
+﻿@model CarBook.Dto.CarDescriptionDtos.ResultCarDescriptionByCarIdDto
 
 <div class="tab-pane fade" id="pills-manufacturer" role="tabpanel" aria-labelledby="pills-manufacturer-tab">
-    <p>@Model.Details</p>
+    @if (Model != null && Model.Details != null)
+    {
+        <p>@Model.Details</p>
+    }
+    else
+    {
+        <p>Bu araç için değerlendirme bulunmamaktadır.</p>
+    }
 </div>
