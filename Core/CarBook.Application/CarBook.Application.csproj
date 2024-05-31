@@ -117,6 +117,7 @@
     <None Remove="Features\Mediator\Results\ReviewResults\" />
     <None Remove="Features\Mediator\Queries\ReviewQueries\" />
     <None Remove="Features\Mediator\Handlers\ReviewHandlers\" />
+    <None Remove="Interfaces\ReviewInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -229,6 +230,7 @@
     <Folder Include="Features\Mediator\Results\ReviewResults\" />
     <Folder Include="Features\Mediator\Queries\ReviewQueries\" />
     <Folder Include="Features\Mediator\Handlers\ReviewHandlers\" />
+    <Folder Include="Interfaces\ReviewInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
