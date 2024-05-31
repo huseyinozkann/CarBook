@@ -18,6 +18,7 @@
     <None Remove="Repositories\RentACarRepositories\" />
     <None Remove="Repositories\CarFeatureRepositories\" />
     <None Remove="Repositories\CarDescriptionRepositories\" />
+    <None Remove="Repositories\ReviewRepositories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
@@ -31,6 +32,7 @@
     <Folder Include="Repositories\RentACarRepositories\" />
     <Folder Include="Repositories\CarFeatureRepositories\" />
     <Folder Include="Repositories\CarDescriptionRepositories\" />
+    <Folder Include="Repositories\ReviewRepositories\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.15">

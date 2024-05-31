@@ -55,6 +55,8 @@ namespace CarBook.Persistence.Context
 
         public DbSet<Reservation> Reservations { get; set; }
 
+        public DbSet<Review> Reviews { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Reservation>()
