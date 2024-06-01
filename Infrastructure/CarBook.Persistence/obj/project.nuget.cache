@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Ow59loQhur4O9ZJv4gDbTaTE9NtCCqg80zt5Az2eMrnxZdRsyuJLMa3nLn4JKIpT3b6E/grNDq5Zz3lkTRgLnA==",
+  "dgSpecHash": "Tqm3dVQfWGOANQVz10irz1tf+cyZfQXEgpV5CTEeGWNQto/MjFZHqsIZyjpKc/gayRtBV3Q6xB2phSMcPuNWng==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/CarBook.Persistence.csproj",
   "expectedPackageFiles": [
     "/Users/huseyinozkan/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "COd2oLHyi+Sc8/vMUiiw04kq44XmLAKuAoh+VWm5GMOkrMAPwHpdTY6PDHbF4iRcid3kGn+eeKcKkYKO5BWJXQ==",
+  "dgSpecHash": "skW6Ipq/00zOhhiTR5sNJfD6ytgjPgDfqUHal9DM/KGi0344umERFXQ92hJgBHZIhctUz/O+2lK0UU2rTQnT3Q==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/CarBook.Application.csproj",
   "expectedPackageFiles": [
     "/Users/huseyinozkan/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.0.0/mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
