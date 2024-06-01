@@ -46,6 +46,19 @@
           }
         }
       },
+      "FluentValidation/11.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1216,6 +1229,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "CarBook.Domain": "1.0.0",
+          "FluentValidation": "11.9.1",
           "MediatR": "12.1.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
@@ -1293,6 +1307,31 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FluentValidation/11.9.1": {
+      "sha512": "C+PqISSMdlOZZJx0Hx25atW32tv4vbpsaiQB+PLjK+ZGLzOFuHl1fUJ3Lny77mIZ31ZtYtNG0JgUjxa3wwLsWg==",
+      "type": "package",
+      "path": "fluentvalidation/11.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.9.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -3490,6 +3529,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "CarBook.Persistence >= 1.0.0",
+      "FluentValidation >= 11.9.1",
       "MediatR >= 12.1.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.15",
@@ -3539,6 +3579,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.9.1, )"
+          },
           "MediatR": {
             "target": "Package",
             "version": "[12.1.1, )"

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oLie80QCG/0p43wgC2y++MxQdzYVcYqjg7Ji1S428oefxFewn/Jcgf3H+aQT4Wu+bojnP+/ro96JthWHATZOOQ==",
+  "dgSpecHash": "qs16+XFFzHSPpfZCjfWtamsR5A4e4j+9SxqRbfYx9jWVGknv7tdCzFjcRakdV13LwO0aiK0Ek0lTA7pzSh7UdA==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/CarBook.WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/huseyinozkan/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",

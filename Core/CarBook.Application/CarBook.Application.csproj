@@ -118,6 +118,9 @@
     <None Remove="Features\Mediator\Queries\ReviewQueries\" />
     <None Remove="Features\Mediator\Handlers\ReviewHandlers\" />
     <None Remove="Interfaces\ReviewInterfaces\" />
+    <None Remove="Validators\" />
+    <None Remove="Validators\ReviewValidators\" />
+    <None Remove="Features\Mediator\Commands\ReviewCommands\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -231,6 +234,9 @@
     <Folder Include="Features\Mediator\Queries\ReviewQueries\" />
     <Folder Include="Features\Mediator\Handlers\ReviewHandlers\" />
     <Folder Include="Interfaces\ReviewInterfaces\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Validators\ReviewValidators\" />
+    <Folder Include="Features\Mediator\Commands\ReviewCommands\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
@@ -240,5 +246,6 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.9.1" />
   </ItemGroup>
 </Project>
