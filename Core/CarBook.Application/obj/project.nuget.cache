@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AfEBstEQjuk=",
+  "dgSpecHash": "Rr9pLmRa/9OFHwMqM/Vl6guP+Chuvzsb6bvB3VFUjT5IYJb7sCE5HGABPQIkkf+Uuga+1Od3Sq12YfMks95AlA==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/CarBook.Application.csproj",
   "expectedPackageFiles": [
@@ -14,8 +14,11 @@
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/Users/huseyinozkan/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/huseyinozkan/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+    "/Users/huseyinozkan/.nuget/packages/microsoft.identitymodel.abstractions/7.7.0/microsoft.identitymodel.abstractions.7.7.0.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.7.0/microsoft.identitymodel.jsonwebtokens.7.7.0.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/microsoft.identitymodel.logging/7.7.0/microsoft.identitymodel.logging.7.7.0.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/microsoft.identitymodel.tokens/7.7.0/microsoft.identitymodel.tokens.7.7.0.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/system.identitymodel.tokens.jwt/7.7.0/system.identitymodel.tokens.jwt.7.7.0.nupkg.sha512"
   ],
   "logs": []
 }
