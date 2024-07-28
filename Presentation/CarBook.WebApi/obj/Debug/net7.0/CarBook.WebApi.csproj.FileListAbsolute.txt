@@ -83,3 +83,6 @@
 /Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/MediatR.dll
 /Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/MediatR.Contracts.dll
 /Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/FluentValidation.dll
+/Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+/Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll

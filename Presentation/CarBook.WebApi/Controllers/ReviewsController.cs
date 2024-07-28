@@ -41,7 +41,7 @@ namespace CarBook.WebApi.Controllers
             }
 
             await _mediator.Send(command);
-            return Ok("Ekleme işleme gerçekleşti.");
+            return Ok("Ekleme işlemi gerçekleşti.");
 
         }
 

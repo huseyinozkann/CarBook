@@ -220,7 +220,7 @@
 /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
 /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
-/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/obj/Debug/net7.0/CarBook.WebUI.csproj.CopyComplete
 /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/bin/Debug/net7.0/CarBook.Dto.dll
 /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/bin/Debug/net7.0/CarBook.Dto.pdb
 /Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/obj/Debug/net7.0/CarBook.WebUI.sourcelink.json
+/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/obj/Debug/net7.0/CarBook..7B7C417C.Up2Date

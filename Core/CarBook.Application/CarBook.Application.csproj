@@ -121,6 +121,7 @@
     <None Remove="Validators\" />
     <None Remove="Validators\ReviewValidators\" />
     <None Remove="Features\Mediator\Commands\ReviewCommands\" />
+    <None Remove="Interfaces\AppUserInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -237,6 +238,7 @@
     <Folder Include="Validators\" />
     <Folder Include="Validators\ReviewValidators\" />
     <Folder Include="Features\Mediator\Commands\ReviewCommands\" />
+    <Folder Include="Interfaces\AppUserInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />

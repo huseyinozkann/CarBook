@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "StLLwtdkYzFXgsW7R5cqVClDar5vJI+NhpdnGda5k+5FZ4kV3+XWeDk8p8W7af3RAYl6JI1BY+6MuATg0V/B0A==",
+  "dgSpecHash": "8LdToivm2zM=",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/CarBook.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/huseyinozkan/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

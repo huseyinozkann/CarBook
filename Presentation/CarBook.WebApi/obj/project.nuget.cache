@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bPQFmxBQ+A2KU8EHaOf82ALEQZVk3a2NloLrB1Bo5c0rAa10S4o/reaMtOvt5oLffDUCdcEtPAAypCWUbOY78g==",
+  "dgSpecHash": "No+0RoTkVl2aEw6v/+evP5kBGxetgbB3BBZj4Q2XM2FP4tdslQAqdfwVtn9Zm1qEyxMUOZj9cBqsYa6NR1Vbfw==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Presentation/CarBook.WebApi/CarBook.WebApi.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/Users/huseyinozkan/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.0.0/mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/Users/huseyinozkan/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.13/microsoft.aspnetcore.authentication.jwtbearer.7.0.13.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

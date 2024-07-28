@@ -1,29 +1,28 @@
 ﻿<Properties StartupConfiguration="{F0A8756B-36F8-4E9B-B100-0D9349DBDB1A}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/Views/Shared/Components/_CarDetailCarDescriptionByCarIdComponentPartial/Default.cshtml">
-    <Files>
-      <File FileName="Frontends/CarBook.WebUI/Controllers/CarController.cs" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Car/Index.cshtml" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Car/CarDetail.cshtml" />
-      <File FileName="Frontends/CarBook.WebUI/Views/Shared/Components/_CarDetailCarDescriptionByCarIdComponentPartial/Default.cshtml" Line="12" Column="7" />
-    </Files>
+  <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarBook" expanded="True">
-            <Node name="Core" expanded="True">
-              <Node name="CarBook.Application" expanded="True" />
+            <Node name="Core" expanded="True" />
+            <Node name="Infrastructure" expanded="True">
+              <Node name="CarBook.Persistence">
+                <Node name="Context">
+                  <Node name="CarBookContext.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
