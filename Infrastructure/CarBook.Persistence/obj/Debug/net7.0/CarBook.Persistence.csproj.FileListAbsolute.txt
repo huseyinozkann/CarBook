@@ -9,7 +9,6 @@
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/bin/Debug/net7.0/CarBook.Persistence.pdb
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/bin/Debug/net7.0/CarBook.Domain.dll
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/bin/Debug/net7.0/CarBook.Domain.pdb
-/Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/CarBook.Persistence.csproj.CopyComplete
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/CarBook.Persistence.dll
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/refint/CarBook.Persistence.dll
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/CarBook.Persistence.pdb
@@ -17,3 +16,5 @@
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/ref/CarBook.Persistence.dll
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/bin/Debug/net7.0/CarBook.Application.dll
 /Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/bin/Debug/net7.0/CarBook.Application.pdb
+/Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/CarBook.Persistence.sourcelink.json
+/Users/huseyinozkan/Projects/CarBook/Infrastructure/CarBook.Persistence/obj/Debug/net7.0/CarBook..02F0496D.Up2Date
