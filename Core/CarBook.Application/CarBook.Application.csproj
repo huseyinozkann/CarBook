@@ -123,6 +123,10 @@
     <None Remove="Features\Mediator\Commands\ReviewCommands\" />
     <None Remove="Interfaces\AppUserInterfaces\" />
     <None Remove="Features\Mediator\Results\AppUserResults\" />
+    <None Remove="Features\Mediator\Queries\AppUserQueries\" />
+    <None Remove="Features\Mediator\Commands\AppUserCommands\" />
+    <None Remove="Features\Mediator\Handlers\AppUserHandlers\" />
+    <None Remove="Dtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -241,6 +245,10 @@
     <Folder Include="Features\Mediator\Commands\ReviewCommands\" />
     <Folder Include="Interfaces\AppUserInterfaces\" />
     <Folder Include="Features\Mediator\Results\AppUserResults\" />
+    <Folder Include="Features\Mediator\Queries\AppUserQueries\" />
+    <Folder Include="Features\Mediator\Commands\AppUserCommands\" />
+    <Folder Include="Features\Mediator\Handlers\AppUserHandlers\" />
+    <Folder Include="Dtos\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />
