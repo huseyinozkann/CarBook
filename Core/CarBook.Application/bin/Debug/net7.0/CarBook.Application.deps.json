@@ -14,7 +14,9 @@
           "MediatR": "12.1.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.IdentityModel.Tokens": "7.7.0",
+          "System.IdentityModel.Tokens.Jwt": "7.7.0"
         },
         "runtime": {
           "CarBook.Application.dll": {}
@@ -97,6 +99,59 @@
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
       "Microsoft.Extensions.Primitives/7.0.0": {},
+      "Microsoft.IdentityModel.Abstractions/7.7.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "7.7.0.0",
+            "fileVersion": "7.7.0.50718"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/7.7.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "7.7.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "7.7.0.0",
+            "fileVersion": "7.7.0.50718"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/7.7.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "7.7.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "7.7.0.0",
+            "fileVersion": "7.7.0.50718"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/7.7.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "7.7.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "7.7.0.0",
+            "fileVersion": "7.7.0.50718"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/7.7.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "7.7.0",
+          "Microsoft.IdentityModel.Tokens": "7.7.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "7.7.0.0",
+            "fileVersion": "7.7.0.50718"
+          }
+        }
+      },
       "CarBook.Domain/1.0.0": {
         "runtime": {
           "CarBook.Domain.dll": {}
@@ -179,6 +234,41 @@
       "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/7.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iXrpPuc1vTEFioUy5Owa/v2EFJmTbKgChAjIiUBQupD2ZQixjRoKyM6abeh43/O5nI/zen8dlMMT9boeSr3jGQ==",
+      "path": "microsoft.identitymodel.abstractions/7.7.0",
+      "hashPath": "microsoft.identitymodel.abstractions.7.7.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/7.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3+DVxexndwugQ7WxWK5Xil1n9xHYDEqVDEwPPcekPFOoJzqP24qKLGy0qj/XY9NwMDsCOQGKan9kuT2dZW9mNg==",
+      "path": "microsoft.identitymodel.jsonwebtokens/7.7.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.7.7.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/7.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gV+HLhDzH3ehl3Shl/fqW2k90lPepn+tt8aJOh1FWWj09zikHMcM/auLxUiXa6BUhx3O8QPSXhs6VGY5YgkT1A==",
+      "path": "microsoft.identitymodel.logging/7.7.0",
+      "hashPath": "microsoft.identitymodel.logging.7.7.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/7.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-REak5W6tFQHVEQPdr/wee4C7JrB8vPXJ8ji+qoJOnivx2IA17UdoMRLzf9RacRP/L+yl2BHnnNz315s3kXD1rA==",
+      "path": "microsoft.identitymodel.tokens/7.7.0",
+      "hashPath": "microsoft.identitymodel.tokens.7.7.0.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/7.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2jgkZKI/Zs8HG0Nj9KNaOXMJiz4cLvyDwXvHt6yARFYHJPWPEur2CV9fmOGoA6cQUED6lu4Yo0vjqaZMY15T3w==",
+      "path": "system.identitymodel.tokens.jwt/7.7.0",
+      "hashPath": "system.identitymodel.tokens.jwt.7.7.0.nupkg.sha512"
     },
     "CarBook.Domain/1.0.0": {
       "type": "project",

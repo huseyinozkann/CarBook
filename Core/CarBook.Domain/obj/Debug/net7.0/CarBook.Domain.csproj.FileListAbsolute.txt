@@ -5,8 +5,8 @@
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/obj/Debug/net7.0/CarBook.Domain.AssemblyInfoInputs.cache
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/obj/Debug/net7.0/CarBook.Domain.AssemblyInfo.cs
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/obj/Debug/net7.0/CarBook.Domain.csproj.CoreCompileInputs.cache
-/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/obj/Debug/net7.0/CarBook.Domain.sourcelink.json
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/obj/Debug/net7.0/CarBook.Domain.dll
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/obj/Debug/net7.0/refint/CarBook.Domain.dll
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/obj/Debug/net7.0/CarBook.Domain.pdb
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/obj/Debug/net7.0/ref/CarBook.Domain.dll
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Domain/obj/Debug/net7.0/CarBook.Domain.csproj.AssemblyReference.cache

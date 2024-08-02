@@ -128,6 +128,7 @@
     <None Remove="Features\Mediator\Handlers\AppUserHandlers\" />
     <None Remove="Dtos\" />
     <None Remove="Tools\" />
+    <None Remove="Enums\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
@@ -251,6 +252,7 @@
     <Folder Include="Features\Mediator\Handlers\AppUserHandlers\" />
     <Folder Include="Dtos\" />
     <Folder Include="Tools\" />
+    <Folder Include="Enums\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CarBook.Domain\CarBook.Domain.csproj" />

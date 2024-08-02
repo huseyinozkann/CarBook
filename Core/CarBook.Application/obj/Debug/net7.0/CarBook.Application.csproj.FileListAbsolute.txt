@@ -8,9 +8,8 @@
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.AssemblyInfoInputs.cache
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.AssemblyInfo.cs
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.csproj.CoreCompileInputs.cache
-/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.sourcelink.json
-/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook..F1F8929D.Up2Date
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.dll
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/refint/CarBook.Application.dll
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.pdb
 /Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/ref/CarBook.Application.dll
+/Users/huseyinozkan/Projects/CarBook/Core/CarBook.Application/obj/Debug/net7.0/CarBook.Application.csproj.CopyComplete

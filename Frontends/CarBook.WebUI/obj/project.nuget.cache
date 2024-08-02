@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f3wiXZVijNY=",
+  "dgSpecHash": "1/pQ9pC1a19gyDqH4o+U5Cr9tzzxLv1bXrwL9LEsxcoGd8g7FRGYFCJZPdhazp6VSkan6khqZTDLe/9YMv+Baw==",
   "success": true,
   "projectFilePath": "/Users/huseyinozkan/Projects/CarBook/Frontends/CarBook.WebUI/CarBook.WebUI.csproj",
   "expectedPackageFiles": [
@@ -190,10 +190,7 @@
     "/Users/huseyinozkan/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
     "/Users/huseyinozkan/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/Users/huseyinozkan/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
-    "/Users/huseyinozkan/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/huseyinozkan/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/huseyinozkan/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.20/microsoft.netcore.app.host.osx-arm64.7.0.20.nupkg.sha512"
+    "/Users/huseyinozkan/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
