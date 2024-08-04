@@ -2,26 +2,24 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Frontends.CarBook.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Frontends/CarBook.WebUI/wwwroot/carbook-master/css/style.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/CarBook.Application/Features/Mediator/Handlers/AppUserHandlers/CreateAppUserCommandHandler.cs">
     <Files>
-      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/css/style.css" Line="9596" Column="33" />
-      <File FileName="Frontends/CarBook.WebUI/wwwroot/carbook-master/index.html" Line="81" Column="70" />
+      <File FileName="Core/CarBook.Application/Features/Mediator/Handlers/AppUserHandlers/CreateAppUserCommandHandler.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CarBook" expanded="True">
-            <Node name="Core" expanded="True" />
-            <Node name="Frontends" expanded="True">
-              <Node name="CarBook.WebUI">
-                <Node name="wwwroot" expanded="True">
-                  <Node name="carbook-master" expanded="True">
-                    <Node name="css" expanded="True">
-                      <Node name="style.css" selected="True" />
+            <Node name="Core" expanded="True">
+              <Node name="CarBook.Application" expanded="True">
+                <Node name="Features" expanded="True">
+                  <Node name="Mediator" expanded="True">
+                    <Node name="Handlers" expanded="True">
+                      <Node name="AppUserHandlers" expanded="True">
+                        <Node name="CreateAppUserCommandHandler.cs" selected="True" />
+                      </Node>
                     </Node>
                   </Node>
                 </Node>
@@ -33,4 +31,6 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Presentation.CarBook.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
 </Properties>

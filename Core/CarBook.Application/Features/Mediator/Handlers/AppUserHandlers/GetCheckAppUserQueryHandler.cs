@@ -13,7 +13,6 @@ namespace CarBook.Application.Features.Mediator.Handlers.AppUserHandlers
 {
     public class GetCheckAppUserQueryHandler : IRequestHandler<GetCheckAppUserQuery, GetCheckAppUserQueryResult>
     {
-
         private readonly IRepository<AppUser> _appUserRepository;
         private readonly IRepository<AppRole> _appRoleRepository;
 
@@ -27,8 +26,7 @@ namespace CarBook.Application.Features.Mediator.Handlers.AppUserHandlers
         {
             var values = new GetCheckAppUserQueryResult();
             var user = await _appUserRepository.GetByFilterAsync(x => x.Username == request.Username && x.Password == request.Password);
-
-            if(user == null)
+            if (user == null)
             {
                 values.IsExist = false;
             }
