@@ -31,6 +31,7 @@
     <None Remove="CarFeatureDtos\" />
     <None Remove="CarDescriptionDtos\" />
     <None Remove="ReviewDtos\" />
+    <None Remove="RegisterDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AboutDtos\" />
@@ -57,5 +58,6 @@
     <Folder Include="CarFeatureDtos\" />
     <Folder Include="CarDescriptionDtos\" />
     <Folder Include="ReviewDtos\" />
+    <Folder Include="RegisterDtos\" />
   </ItemGroup>
 </Project>
